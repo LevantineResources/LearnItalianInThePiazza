@@ -1,0 +1,30 @@
+??? : Buongiorno! Cosa prende?
+MARGARET: Ask her what sort of cornetti they have, dear. I'm terribly particular about my cornetto.
+ALEX: Buongiorno! Che cornetti avete?
+??? : Buongiorno!
+??? : Abbiamo cornetti vuoti, alla crema, alla marmellata e al cioccolato.
+MARGARET: What kinds have they got?
+ALEX: Plain ones, custard ones, jam ones and chocolate ones.
+MARGARET: Jam for me, please. Apricot, I hope. And just a little black coffee.
+ALEX: Per lei un caffè e un cornetto alla crema.
+??? : Allora: per la signora un caffè e un cornetto alla crema?
+MARGARET: No, dear: jam, I said!
+ALEX: Sì.
+??? : Sì?
+ALEX: No, per lei un caffè e un cornetto alla marmellata.
+??? : Allora: per la signora un caffè e un cornetto alla marmellata?
+MARGARET: And something for you, dear! You must eat.
+ALEX: E per me. Vorrei un cappuccino e un cornetto vuoto.
+??? : Allora: per Lei un cappuccino e un cornetto vuoto?
+MARGARET: No, dear: jam, I said!
+ALEX: No, un cappuccino e un cornetto vuoto per me.
+??? : Allora: per Lei un cappuccino e un cornetto vuoto?
+MARGARET: No, dear: jam, I said!
+ALEX: No, per lei un caffè e un cornetto alla marmellata.
+??? : Allora: per la signora un caffè e un cornetto alla marmellata?
+MARGARET: And something for you, dear! You must eat.
+ALEX: Sì.
+??? : Sì?
+ALEX: Vorrei un cappuccino.
+??? : Allora: un cappuccino?
+MARGARET: And my cornetto, dear? Jam, I said!

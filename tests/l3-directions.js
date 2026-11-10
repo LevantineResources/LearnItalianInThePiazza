@@ -1,0 +1,111 @@
+const path = require('path'), fs = require('fs');
+const GAME = 'file://' + path.resolve(__dirname, '../dist/index.html');
+const SHOTS = path.resolve(__dirname, 'shots'); fs.mkdirSync(SHOTS, { recursive: true });
+const { chromium } = require('playwright');
+(async () => {
+  const b = await chromium.launch();
+  const p = await b.newPage({ viewport: { width: 1280, height: 800 } });
+  const errs = [];
+  p.on('pageerror', e => errs.push('pageerror: ' + e.message));
+  await p.goto(GAME);
+  await p.fill('#nameInput', 'Sam');
+  const clickWorld = async (x, y) => { const r = await p.$eval('#cv', c => { const b = c.getBoundingClientRect(); return { l: b.left, t: b.top, w: b.width, h: b.height }; }); await p.mouse.click(r.l + x / 960 * r.w, r.t + y / 600 * r.h); };
+  const talkTo = async (x, y) => { await clickWorld(x, y); await p.waitForSelector('#dialog:not([hidden])', { timeout: 10000 }); await p.waitForTimeout(800); };
+  const tiles = async (sel, words) => { for (const w of words) await p.click(`${sel} .tile:not(.used) >> text="${w}"`); };
+  const last = async (n = 2) => (await p.$$eval('.line', ls => ls.map(l => l.innerText.replace(/\s+/g, ' ').replace(/ EN$/,'').trim()))).slice(-n);
+  const obj = async () => console.log('  [objective] ' + await p.textContent('#objective'));
+  const say = async (labels, wait = 1500, show = 3) => { for (const w of labels) await p.click(`#bank .tile >> text="${w}"`); await p.click('#btnSay'); await p.waitForTimeout(wait);
+    const hint = await p.$eval('#hint', h => h.hidden ? '' : h.innerText.replace(/\s+/g,' '));
+    console.log('   ' + (await last(show)).join('  →  ') + (hint ? '   [' + hint + ']' : '')); };
+  const check = (label, ok) => console.log(`   ${label} complete: ${!!ok}`);
+  const hintNow = () => p.$eval('#hint', h => h.hidden ? '' : h.innerText.replace(/\s+/g, ' '));
+  const englishAsk = () => p.$eval('#choices', c => !c.hidden && /where is Via dei Mille/.test(c.innerText));
+  // ---- L2 sanity with set phrases
+  await p.click('#btnJump2'); await p.waitForTimeout(400);
+  console.log('L2 ENZO'); await talkTo(845, 144);
+  console.log('   bank groups:', await p.$$eval('#bank .bank-label', ls => ls.map(l => l.textContent)));
+  await say(['Buongiorno', 'Mi chiamo Sam'], 1300);
+  await p.waitForSelector('#choices:not([hidden]) button', { timeout: 4000 });
+  await p.click('#dlgClose');
+  // ---- restart into L3
+  await p.click('#btnReset'); await p.click('#doReset'); await p.fill('#nameInput', 'Sam'); await p.click('#btnJump3'); await p.waitForTimeout(500);
+  await obj();
+  await p.keyboard.press('p'); await p.waitForSelector('#reply1');
+  await p.screenshot({ path: SHOTS + '/30-phone.png' });
+  await p.click('#reply1'); await p.waitForTimeout(300); await p.click('.phone-top [data-close]'); await obj();
+  console.log('CHIARA (confused)'); await talkTo(200, 470);
+  await p.waitForSelector('#choices:not([hidden]) .btn.english', { timeout: 4000 });
+  /* she opens with "Ciao Sam, come stai?": answering first must not take away the way to ask her the way (playtest notes) */
+  console.log('   ' + (await last(1)).join(''));
+  await say(['Sto bene, grazie', 'E tu?'], 1500, 2);
+  { const h = await hintNow();
+    check('L3 after come stai: the English question is still offered', await englishAsk());
+    check('L3 after come stai: the hint says to ask the way (no goodbye, no Italian)', /Ask Chiara the way/.test(h) && !/goodbye|Ciao!|dov'è/i.test(h)); }
+  await p.waitForSelector('#choices:not([hidden]) .btn.english', { timeout: 4000 });
+  await p.click('#choices .btn.english'); await p.waitForSelector('#choices button.primary', { timeout: 5000 });
+  console.log('   ' + (await last(3)).join(' | '));
+  await p.click('#choices button.primary'); await p.waitForSelector('#modal:not([hidden])'); await obj();
+  await p.waitForTimeout(200); await p.$eval('.sheet-body', el => el.scrollTop = 760);
+  await p.screenshot({ path: SHOTS + '/31-handbook3.png' });
+  await p.click('[data-tab=practice]');
+  await p.click('[data-opt="0"]'); await p.click('#pxNext');
+  await p.click('[data-opt="1"]'); await p.click('#pxNext');
+  await tiles('#pxBank', ['scusa', "dov'è", 'via dei Mille']); await p.click('#pxCheck'); await p.click('#pxNext');
+  await p.click('[data-opt="1"]'); await p.click('#pxNext');
+  await p.click('[data-opt="0"]'); await p.click('#pxNext');
+  await tiles('#pxBank', ['può', 'ripetere', 'per favore']); await p.click('#pxCheck'); await p.click('#pxNext');
+  await p.click('#pxGo'); await obj();
+  console.log('CHIARA (directions)'); await talkTo(200, 470);
+  console.log('   bank groups:', await p.$$eval('#bank .bank-label', ls => ls.map(l => l.textContent)));
+  console.log('   ' + (await last(1)).join(''));
+  /* the come-stai exchange first: the asking-the-way guidance must still be there, in English, without the sentence */
+  await say(['Sto bene, grazie', 'E tu?'], 1500, 2);
+  { const h = await hintNow();
+    check('L3 directions after come stai: the hint says to ask the way', /Ask her the way/.test(h) && !/dov'è|via dei Mille/i.test(h)); }
+  await say(['Ciao'], 1500, 2);
+  check('L3 directions: still asking the way after another turn', /Ask her the way/.test(await hintNow()));
+  await say(['Scusa', "Dov'è", 'via dei Mille'], 5200, 6);
+  await p.screenshot({ path: SHOTS + '/32-chiara-dirs.png' });
+  await say(['Puoi ripetere?'], 7000, 6);
+  await say(['a destra?'], 1500, 2);
+  await say(['È lontano?'], 1500, 2);
+  await say(['Sto bene, grazie'], 1500, 2);
+  await say(['Grazie mille'], 1500, 2);
+  await p.click('#choices button.primary'); await p.waitForTimeout(400); await obj();
+  // ---- map
+  await p.keyboard.press('m'); await p.waitForSelector('.mapsvg');
+  const node = async (c, r) => { await p.click(`[data-node="${c},${r}"]`); };
+  await node(2,3); await node(3,3); await p.click('#mCheck'); console.log('   map check 1:', await p.textContent('.mapstatus'));
+  await p.click('#mClear'); await node(2,3); await node(2,2); await node(2,1); await p.click('#mCheck'); console.log('   map check 2:', await p.textContent('.mapstatus'));
+  await p.click('#mUndo'); await node(3,2); await node(3,1); await p.click('#mCheck'); console.log('   map check 3:', await p.textContent('.mapstatus'));
+  await p.screenshot({ path: SHOTS + '/33-map.png' });
+  await p.click('[data-go="sanlorenzo"]'); await p.waitForTimeout(2600); await obj();
+  await p.screenshot({ path: SHOTS + '/34-sanlorenzo.png' });
+  console.log('ROSA'); await talkTo(310, 335);
+  console.log('   ' + (await last(1)).join(''));
+  /* Rosa: a "come sta?" exchange first, then the way (she wants your name before she answers) */
+  await say(['Come sta?'], 1500, 2);
+  await say(['Sto bene, grazie'], 1500, 2);
+  await say(['Scusi', "Dov'è", 'via dei Mille'], 1500, 2);
+  check('Rosa after come sta: the guidance is still there', /asked your name|Introduce yourself/.test(await hintNow()));
+  await say(['Buongiorno', 'Mi chiamo Sam'], 4500, 5);
+  check('Rosa gave the way', (await last(6)).some(l => /qui vicino/.test(l)));
+  await say(['a sinistra?'], 1500, 2);
+  await say(['Grazie mille'], 1500, 2);
+  await p.click('#choices button.primary'); await p.waitForTimeout(400); await obj();
+  // decoy door then the café
+  await clickWorld(378, 100); await p.waitForTimeout(3000);
+  console.log('   toast:', await p.$$eval('.toast', ts => ts.map(t => t.innerText).slice(-1)));
+  await clickWorld(658, 126); await p.waitForSelector('#dialog:not([hidden])', { timeout: 9000 });
+  await p.waitForTimeout(1000);
+  await p.click('#choices button.primary'); await p.waitForTimeout(3200);
+  console.log('   ' + (await last(4)).join(' | '));
+  await p.click('#choices button.primary'); await p.waitForTimeout(900);
+  await p.click('#choices button.primary'); await p.waitForTimeout(700);
+  console.log('   L3 complete modal:', await p.isVisible('#modal'), await p.textContent('.sheet h2'));
+  await p.screenshot({ path: SHOTS + '/35-complete3.png' });
+  await p.click('#sheet .btn.primary'); await p.waitForTimeout(200); await p.keyboard.press('v'); await p.waitForTimeout(300);
+  await p.screenshot({ path: SHOTS + '/36-dict.png' });
+  console.log('errors:', errs.length ? errs : 'none');
+  await b.close();
+})().catch(e => { console.error('FAIL', e.message); process.exit(1); });
