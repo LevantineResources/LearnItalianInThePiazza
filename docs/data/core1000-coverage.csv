@@ -1,0 +1,1001 @@
+rank,lemma,pos,status,times_in_dictionary,strings_seen_in
+1,il,"art.det.m.sing., pron.pers.",taught,241,3755
+2,di,prep.,taught,30,471
+3,essere,v.intr.; s.m.,taught,87,1092
+4,a,prep.,taught,38,1281
+5,e,cong.,taught,14,862
+6,in,prep.,taught,10,156
+7,uno,"agg.num.card., s.m.inv., art.indet.m.sing., pron. indef.m.",taught,45,661
+8,che,"pron.rel., pron. interr., pron.escl., pron.indef.inv., agg.interr., agg.escl., s.m.inv.",taught,16,272
+9,la,"art.det.f.sing., pron.pers.",taught,1,494
+10,avere,"v.tr., v.intr.",taught,28,452
+11,non,avv.,taught,15,243
+12,per,prep.,taught,24,289
+13,da,prep.,taught,6,90
+14,una,"art.indet.f.sing., pron.indef., s.f.inv.",taught,1,191
+15,le,"art.det.f.pl., pron.pers.",taught,1,246
+16,con,prep.,taught,6,100
+17,si,pron.pers.,taught,4,57
+18,fare,"v.tr. e intr., s.m.",taught,10,216
+19,questo,"agg.dimostr., pron. dimostr.m.",taught,9,129
+20,su,"prep., avv., inter., s.m.inv.",taught,3,47
+21,ma,"cong., s.m.inv.",taught,3,153
+22,come,"avv., cong.",taught,6,144
+23,tutto,"agg.indef., pron.indef., s.m.",seen,0,24
+24,potere,v.tr. e intr.; s.m.,taught,12,154
+25,più,"avv., agg.compar.inv., prep., s.m.inv.",taught,7,118
+26,se,"pron.pers.; cong., s.m.inv.",taught,1,3
+27,suo,agg.poss.,seen,0,29
+28,quello,"agg.dimostr., pron.dimostr.m.",taught,4,30
+29,mi,pron.pers.,taught,14,291
+30,anche,"cong., avv.",taught,1,60
+31,lo,"art.det.m.sing., pron.pers.",taught,1,143
+32,gli,pron.pers.,taught,1,27
+33,o,cong.,seen,0,76
+34,altro,"agg.indef., pron.indef.m., avv.",seen,0,37
+35,dire,"v.tr. e intr., s.m.",taught,5,129
+36,ci,pron.pers.,taught,12,105
+37,dovere,v.tr.; s.m.,taught,2,24
+38,mio,agg.poss.,taught,4,99
+39,volere,v.tr.,taught,9,134
+40,stare,v.intr.,taught,6,119
+41,cosa,s.f.,taught,3,133
+42,solo,"agg., s.m., avv., cong.",seen,0,23
+43,anno,s.m.,seen,0,9
+44,io,pron.pers.,taught,5,144
+45,andare,v.intr.,taught,17,228
+46,ti,pron.pers.,taught,6,89
+47,perché,"avv., cong., s.m.inv.",taught,2,29
+48,vedere,"v.tr. e intr., s.m.",taught,10,199
+49,cui,pron.rel.,missing,0,0
+50,molto,"agg.indef., pron.indef., avv., s.m.",taught,2,27
+51,era,s.f.,seen,0,3
+52,stato,s.m.,missing,0,0
+53,sapere,v.tr. e intr.,taught,7,92
+54,quando,"cong., avv., s.m.",taught,1,15
+55,parte,"s.f., avv.",taught,7,62
+56,venire,v.intr.,taught,1,21
+57,tra,prep.,taught,1,8
+58,fatto,s.m.,taught,1,109
+59,prima,"avv., agg.inv., s.m.inv.; s.f.",taught,4,62
+60,loro,pron.pers.,seen,0,9
+61,ora,s.f.; avv.,taught,9,122
+62,due,"agg.num.card.inv., s.m.inv., s.f.pl.",taught,6,124
+63,sia,cong.,missing,0,0
+64,nuovo,"agg., s.m.",seen,0,10
+65,così,avv.,taught,1,18
+66,dopo,"avv., prep., cong., agg.inv., s.m.inv.",taught,1,47
+67,stesso,"agg.dimostr., pron.dimostr.m.",seen,0,2
+68,proprio,"agg.poss., agg., avv., s.m.",missing,0,0
+69,nostro,agg.poss.,seen,0,4
+70,ne,"pron.pers., avv.",taught,1,10
+71,poi,avv.,taught,4,59
+72,sempre,avv.,taught,1,43
+73,fa,avv.,taught,1,75
+74,me,pron.pers.,taught,4,144
+75,bene,"avv., inter.; s.m.",taught,4,160
+76,quanto,"agg. interr., agg.escl., agg.rel., pron.interr., pron.escl., pron.rel., avv., s.m.",taught,5,68
+77,tuo,agg.poss.,seen,0,19
+78,chi,"pron.rel., pron.rel.indef., pron.indef., pron.interr.",taught,1,33
+79,ancora,"avv., cong.",taught,2,45
+80,trovare,v.tr.,taught,3,21
+81,giorno,s.m.,taught,1,11
+82,dare,"v.tr. e intr., s.m.",seen,0,10
+83,volta,s.f.,taught,1,21
+84,persona,s.f.,taught,4,15
+85,tempo,s.m.,seen,0,6
+86,senza,"prep., cong., inter.",taught,1,10
+87,pensare,v.intr. e tr.,missing,0,0
+88,quale,"agg.interr., agg.escl., agg.rel., agg.indef., pron. interr., pron.rel., pron.indef., avv., s.m.",taught,1,40
+89,mai,avv.,seen,0,2
+90,ogni,agg.indef.inv.,seen,0,2
+91,parlare,v.intr. e tr.,taught,3,42
+92,primo,"agg.num.ord., s.m., avv.",seen,0,12
+93,tanto,"agg.indef., pron.indef., pron.dimostr., s.m.inv., avv., cong.",seen,0,20
+94,dove,"avv., cong., s.m.inv.",taught,10,135
+95,vita,s.f.,missing,0,0
+96,secondo,"agg.num.ord., s.m., avv.; prep., cong.",taught,2,22
+97,no,"avv., s.m.inv., agg.inv.",taught,5,166
+98,grande,"agg., s.m.",taught,5,65
+99,già,avv.,seen,0,15
+100,sei,"agg.num.card.inv., s.m.inv., s.f.pl.",taught,1,52
+101,prendere,v.tr. e intr.,taught,9,142
+102,modo,s.m.,missing,0,0
+103,quindi,"avv., cong.",taught,1,10
+104,italiano,"agg., s.m.",taught,3,31
+105,casa,s.f.,missing,0,0
+106,mettere,v.tr. e intr.,missing,0,0
+107,grazie,"inter., s.m.inv.",taught,7,228
+108,caso,s.m.,missing,0,0
+109,lavoro,s.m.,missing,0,1
+110,noi,pron.pers.,seen,0,24
+111,alcuno,"agg.indef., pron.indef.m.",missing,0,0
+112,vi,pron.pers.,taught,2,16
+113,bello,"agg., s.m.",taught,14,192
+114,poco,"agg.indef., pron. indef., s.m., avv.",taught,2,24
+115,qui,avv.,taught,1,50
+116,te,pron.pers.,taught,1,12
+117,uomo,s.m.,taught,3,31
+118,tu,pron.pers.,taught,2,185
+119,mondo,s.m.,missing,0,0
+120,via,"s.f., avv., inter., s.m.inv.",taught,1,42
+121,capire,"v.tr., v.intr.",taught,1,22
+122,arrivare,v.intr. e tr.,taught,9,76
+123,buono,"agg., s.m., avv.",taught,2,83
+124,credere,"v.intr. e tr., s.m.",missing,0,0
+125,sembrare,v.intr.,taught,1,30
+126,sentire,"v.tr., v.intr.",taught,2,32
+127,lui,pron.pers.,taught,3,108
+128,vero,"agg., s.m.",seen,0,19
+129,seguire,v.tr. e intr.,missing,0,0
+130,contro,"prep., avv., s.m.inv.",missing,0,0
+131,donna,s.f.,taught,3,28
+132,chiedere,v.tr. e intr.,taught,1,18
+133,li,pron.pers.,seen,0,8
+134,mentre,cong.,missing,0,0
+135,diverso,"agg., agg.indef., pron.indef., s.m.",seen,0,2
+136,storia,s.f.,seen,0,2
+137,fine,s.f. e m.,missing,0,1
+138,posto,s.m.,seen,0,3
+139,oggi,"avv., s.m.inv.",taught,4,30
+140,lasciare,v.tr.,missing,0,1
+141,legge,s.f.,seen,0,4
+142,riuscire,v.intr.,missing,0,0
+143,problema,s.m.,seen,0,4
+144,cercare,v.tr.,taught,3,32
+145,piacere,v.intr.; s.m.,taught,17,227
+146,città,s.f.inv.,seen,0,7
+147,portare,v.tr. e intr.,taught,1,8
+148,certo,"agg., agg.indef., pron.indef.m., s.m., avv.",taught,3,53
+149,punto,s.m.,seen,0,2
+150,nessuno,"agg.indef., pron. indef.m., s.m.",taught,2,23
+151,qualche,"agg.indef., avv.",missing,0,0
+152,momento,s.m.,seen,0,15
+153,chiamare,v.tr.,taught,5,78
+154,amico,"agg., s.m.",taught,4,70
+155,pubblico,"agg., s.m.",missing,0,0
+156,paese,s.m.,missing,0,0
+157,tre,"agg.num.card.inv., s.m.inv., s.f.pl.",taught,2,64
+158,fino,"prep., avv.",taught,3,37
+159,foto,s.f.inv.,taught,4,42
+160,troppo,"agg.indef., pron.indef., avv., s.m.",taught,2,14
+161,meno,"avv., agg.compar.inv., prep., s.m.inv.",taught,3,55
+162,meglio,"avv., agg.inv., s.m.inv.",missing,0,0
+163,nome,s.m.,seen,0,5
+164,guardare,v.tr. e intr.,taught,1,52
+165,leggere,v.tr.,seen,0,21
+166,diventare,v.intr.,missing,0,0
+167,ciò,pron.dimostr.inv.,missing,0,0
+168,però,cong.,missing,0,0
+169,sotto,"prep., avv., agg.inv., s.m.inv.",taught,2,30
+170,ultimo,"agg., s.m.",missing,0,1
+171,tenere,v.tr. e intr.,seen,0,2
+172,conoscere,"v.tr., v.intr.",seen,0,5
+173,passare,v.intr. e tr.,seen,0,5
+174,mese,s.m.,missing,0,0
+175,tipo,s.m.,missing,0,0
+176,gruppo,s.m.,missing,0,0
+177,piccolo,"agg., s.m.",taught,8,59
+178,mano,s.f.,seen,0,15
+179,forse,"avv., s.m.inv.",taught,1,16
+180,invece,avv.,missing,0,0
+181,vivere,"v.intr. e tr., s.m.",missing,0,0
+182,uscire,v.intr.,taught,3,38
+183,ricordare,v.tr.,taught,4,31
+184,unico,"agg., s.m.",missing,0,0
+185,parola,s.f.,seen,0,4
+186,qualcosa,"pron.indef., s.m.",taught,4,36
+187,uso,s.m.,missing,0,0
+188,tornare,v.intr. e tr.,taught,2,13
+189,oltre,"avv., prep.",missing,0,0
+190,serio,"agg., s.m.",missing,0,1
+191,partire,v.intr.,taught,3,27
+192,numero,s.m.,seen,0,10
+193,santo,"agg., s.m.",taught,4,141
+194,rendere,v.tr.,missing,0,0
+195,rimanere,v.intr.,missing,0,0
+196,gente,s.f.,missing,0,0
+197,allora,"avv., cong.",taught,1,87
+198,famiglia,s.f.,taught,2,8
+199,verso,s.m.; prep.,taught,1,20
+200,male,"avv., inter.; s.m.",taught,1,11
+201,durante,"p.pres., prep., s.m.inv.",missing,0,0
+202,niente,"pron.indef.inv., s.m.inv., agg.inv., avv.",taught,1,38
+203,usare,"v.tr., v.intr.",missing,0,0
+204,entrare,"v.intr., v.tr., s.m.",taught,2,14
+205,fuori,"avv., prep., s.m.inv., agg.inv.",missing,0,0
+206,voi,pron.pers.,seen,0,15
+207,lungo,"agg., prep., s.m.",seen,0,2
+208,figlio,s.m.,missing,0,0
+209,insieme,"avv., s.m.",missing,0,0
+210,pure,"avv., cong.",missing,0,0
+211,qualcuno,"pron.indef.m., agg.indef., s.m.",missing,0,0
+212,idea,s.f.,missing,0,0
+213,aspettare,v.tr. e intr.,taught,2,24
+214,comunque,"avv., cong.",missing,0,0
+215,comune,"agg., s.m., s.f.",missing,0,0
+216,sito,s.m.; agg.,missing,0,0
+217,diritto,s.m.,missing,0,0
+218,davvero,avv.,taught,1,10
+219,iniziare,v.intr. e tr.,missing,0,0
+220,alto,"agg., s.m., avv.",taught,7,33
+221,politica,s.f.,missing,0,0
+222,tale,"agg.dimostr., agg.indef., pron.dimostr., pron.indef., avv.",missing,0,0
+223,cazzo,s.m.,missing,0,0
+224,mezzo,"agg., s.m., avv.",taught,2,42
+225,lei,pron.pers.,taught,9,215
+226,video,"agg.inv., s.m.inv.",missing,0,0
+227,ragazzo,s.m.,seen,0,2
+228,importante,"p.pres., agg., s.m.",missing,0,0
+229,forza,s.f.,missing,0,0
+230,sistema,s.m.,missing,0,0
+231,dato,"p.pass., agg., s.m.",seen,0,16
+232,migliore,"agg., s.m. e f., avv.",missing,0,0
+233,morire,"v.intr., v.tr.",seen,0,6
+234,esempio,s.m.,missing,0,0
+235,corso,s.m.,missing,0,0
+236,trattare,v.tr. e intr.,missing,0,0
+237,nazionale,"agg., s.f. e m.",missing,0,0
+238,scuola,s.f.,seen,0,7
+239,possibile,"agg., s.m.",missing,0,1
+240,quasi,"avv., cong.",missing,0,1
+241,sì,"avv., s.m.inv., agg.inv.",taught,8,353
+242,governo,s.m.,missing,0,0
+243,pubblicare,v.tr.,missing,0,0
+244,libro,s.m.,taught,1,53
+245,lavorare,v.intr. e tr.,missing,0,0
+246,settimana,s.f.,missing,0,0
+247,studio,s.m.,seen,0,4
+248,servizio,s.m.,missing,0,0
+249,società,s.f.inv.,missing,0,0
+250,ragazza,s.f.,seen,0,3
+251,cambiare,v.tr. e intr.,missing,0,0
+252,generale,"agg., s.m. e f.",missing,0,0
+253,nulla,"pron. indef.inv., s.m.inv., avv.",missing,0,0
+254,scrivere,v.tr.,seen,0,3
+255,bambino,"s.m., agg.",taught,5,52
+256,bastare,v.intr.,taught,1,19
+257,centro,s.m.,missing,0,1
+258,interno,"agg., s.m.",missing,0,0
+259,circa,"prep., avv., s.m.inv.",missing,0,0
+260,vario,"agg., agg.indef., pron.indef., s.m.",missing,0,0
+261,bisogno,s.m.,taught,2,17
+262,articolo,s.m.,missing,0,0
+263,servire,v.tr. e intr.,seen,0,2
+264,giusto,"agg., s.m., avv.",taught,1,18
+265,guerra,s.f.,missing,0,0
+266,ecco,avv.,taught,2,110
+267,subire,v.tr.,seen,0,12
+268,rispetto,s.m.,missing,0,0
+269,base,s.f.,missing,0,0
+270,vostro,agg.poss.,missing,0,0
+271,opera,s.f.,missing,0,1
+272,finire,"v.tr. e intr., s.m.",taught,1,23
+273,strada,s.f.,taught,2,41
+274,creare,v.tr.,missing,0,0
+275,adesso,avv.,taught,2,23
+276,progetto,s.m.,missing,0,0
+277,serie,s.f.inv.,missing,0,0
+278,domanda,s.f.,missing,0,1
+279,considerare,v.tr.,missing,0,0
+280,passo,s.m.,missing,0,1
+281,senso,s.m.,missing,0,0
+282,causa,s.f.,missing,0,0
+283,almeno,avv.,missing,0,0
+284,ragione,s.f.,seen,0,6
+285,presente,"agg., s.m., avv.",missing,0,0
+286,gioco,s.m.,missing,0,1
+287,presentare,v.tr.,taught,2,36
+288,piano,"s.m.; agg., avv.",seen,0,3
+289,giovane,"agg., s.m. e f.",taught,1,11
+290,terra,s.f.,missing,0,0
+291,infatti,"cong., avv.",missing,0,0
+292,morte,s.f.,missing,0,0
+293,spesso,avv.,missing,0,0
+294,provare,v.tr.,missing,0,1
+295,luogo,s.m.,missing,0,0
+296,livello,s.m.,missing,0,0
+297,film,s.m.inv.,missing,0,0
+298,particolare,"agg., s.m.",missing,0,0
+299,porto,s.m.,seen,0,20
+300,forma,s.f.,seen,0,4
+301,acqua,s.f.,taught,2,24
+302,subito,avv.,seen,0,12
+303,vicino,"agg., s.m., avv.",taught,2,36
+304,consiglio,s.m.,seen,0,60
+305,perdere,v.tr. e intr.,missing,0,0
+306,voce,s.f.,seen,0,3
+307,successo,s.m.,missing,0,0
+308,dio,s.m.,missing,0,0
+309,campo,s.m.,missing,0,0
+310,fra,prep.,missing,0,0
+311,inoltre,avv.,missing,0,0
+312,presidente,"s.m. e f., agg.",missing,0,0
+313,appena,"avv., cong.",taught,1,6
+314,ce,pron.pers.,seen,0,6
+315,situazione,s.f.,missing,0,0
+316,padre,s.m.,missing,0,0
+317,termine,s.m.,missing,0,0
+318,aiutare,v.tr.,taught,3,23
+319,amare,v.tr.,taught,2,13
+320,occhio,s.m.,missing,0,1
+321,forte,"agg., avv., s.m.",taught,1,15
+322,vista,s.f.,missing,0,1
+323,esistere,v.intr.,missing,0,0
+324,rispondere,v.intr. e tr.,seen,0,3
+325,sociale,"agg., s.m.",missing,0,0
+326,seguito,s.m.,missing,0,0
+327,prova,s.f.,missing,0,0
+328,amore,s.m.,missing,0,1
+329,risultato,"p.pass., agg., s.m.",missing,0,0
+330,ottenere,v.tr.,missing,0,0
+331,sperare,v.tr. e intr.,missing,0,1
+332,genere,s.m.,missing,0,0
+333,inizio,s.m.,missing,0,0
+334,soprattutto,avv.,missing,0,0
+335,signore,s.m.,taught,5,155
+336,ricevere,v.tr.,missing,0,0
+337,decidere,v.tr. e intr.,missing,0,0
+338,libero,"agg., s.m.",missing,0,0
+339,accordo,s.m.,missing,0,0
+340,informazione,s.f.,seen,0,2
+341,ricerca,s.f.,missing,0,0
+342,prossimo,"agg., s.m.",taught,6,43
+343,ordine,s.m.,seen,0,4
+344,europeo,"agg., s.m.",missing,0,0
+345,titolo,s.m.,missing,0,0
+346,vincere,v.tr. e intr.,missing,0,0
+347,porta,s.f.,seen,0,19
+348,capo,s.m.,missing,0,0
+349,continuo,"agg., s.m., avv.",missing,0,1
+350,zona,s.f.,missing,0,0
+351,regione,s.f.,missing,0,0
+352,motivo,s.m.,missing,0,0
+353,attività,s.f.,missing,0,0
+354,minuto,s.m.,seen,0,9
+355,notte,s.f.,taught,2,16
+356,letto,s.m.,seen,0,20
+357,realtà,s.f.inv.,missing,0,0
+358,effetto,s.m.,missing,0,0
+359,pagare,v.tr.,seen,0,11
+360,grado,s.m.,missing,0,0
+361,corpo,s.m.,missing,0,0
+362,parere,v.intr.; s.m.,missing,0,0
+363,utilizzare,v.tr.,missing,0,0
+364,sicuro,"agg., s.m., avv.",taught,4,40
+365,periodo,s.m.,missing,0,0
+366,testa,s.f.,taught,2,24
+367,sole,s.m.,taught,1,13
+368,rapporto,s.m.,missing,0,0
+369,notizia,s.f.,missing,0,0
+370,prodotto,"p.pass., agg., s.m.",missing,0,0
+371,votare,v.tr. e intr.,missing,0,0
+372,economico,"agg., s.m.",missing,0,0
+373,settembre,s.m.,missing,0,0
+374,richiedere,v.tr.,missing,0,0
+375,politico,"agg., s.m.",missing,0,0
+376,giocare,v.intr. e tr.,seen,0,2
+377,terzo,"agg.num.ord., s.m.",seen,0,2
+378,mangiare,v.tr.,taught,4,69
+379,scegliere,v.tr.,missing,0,0
+380,faccia,s.f.,missing,0,1
+381,chiesa,s.f.,taught,3,42
+382,soldo,s.m.,missing,0,0
+383,proporre,v.tr.,missing,0,0
+384,locale,"agg., s.m. e f.",missing,0,0
+385,programma,s.m.,missing,0,0
+386,umano,"agg., s.m.",missing,0,0
+387,marzo,s.m.,missing,0,0
+388,presso,"avv., prep., s.m., agg.",missing,0,0
+389,quattro,"agg. num.card.inv., s.m.inv., s.f.pl.",taught,1,23
+390,milione,s.m.,missing,0,0
+391,giro,s.m.,taught,2,37
+392,madre,s.f.,missing,0,0
+393,principale,"agg., s.m. e f.",missing,0,0
+394,spiegare,v.tr.,missing,0,0
+395,lingua,s.f.,missing,0,0
+396,restare,v.intr. e tr.,seen,0,2
+397,condizione,s.f.,missing,0,0
+398,attraverso,"prep., avv.",missing,0,0
+399,qualsiasi,"agg.indef., agg.rel.",missing,0,0
+400,personale,"agg., s.m., s.f.",missing,0,0
+401,arte,s.f.,taught,2,25
+402,immagine,s.f.,missing,0,0
+403,nascere,"v.intr., s.m.",missing,0,1
+404,questione,s.f.,missing,0,0
+405,posizione,s.f.,missing,0,0
+406,basso,"agg., s.m., avv.",taught,2,37
+407,mandare,v.tr.,missing,0,0
+408,aperto,"p.pass., agg., s.m., avv.",missing,0,1
+409,inglese,"agg., s.m. e f.",taught,2,42
+410,massimo,"agg., s.m., avv.",missing,0,0
+411,futuro,"agg., s.m.",missing,0,0
+412,necessario,"agg., s.m.",missing,0,0
+413,difficile,"agg., s.m.",missing,0,0
+414,mancare,"v.intr., v.tr.",taught,1,18
+415,esperienza,s.f.,missing,0,0
+416,pieno,"agg., s.m.",taught,1,6
+417,notare,v.tr.,missing,0,0
+418,nero,"agg., s.m.",taught,4,56
+419,permettere,v.tr.,missing,0,0
+420,linea,s.f.,taught,1,8
+421,continuare,v.tr. e intr.,seen,0,2
+422,conto,s.m.,taught,1,16
+423,valore,s.m.,missing,0,0
+424,storico,"agg., s.m.",missing,0,0
+425,azienda,s.f.,missing,0,0
+426,risposta,s.f.,missing,0,1
+427,riguardare,v.tr. e intr.,missing,0,0
+428,cuore,s.m.,missing,0,0
+429,raggiungere,v.tr.,missing,0,0
+430,pagina,s.f.,missing,0,1
+431,media,s.f.,missing,0,0
+432,interesse,s.m.,missing,0,0
+433,ciao,inter.,taught,2,150
+434,rappresentare,v.tr.,missing,0,0
+435,semplice,"agg., s.m.",missing,0,0
+436,cominciare,"v.tr. e intr., s.m.",missing,0,0
+437,ufficiale,agg.,missing,0,0
+438,università,s.f.inv.,missing,0,0
+439,maggio,s.m.,missing,0,0
+440,ex,"agg. inv., s.m. e f.inv., prep.",missing,0,0
+441,azione,s.f.,missing,0,0
+442,mare,s.m.,taught,2,7
+443,simile,"agg., agg.dimostr., s.m. e f., s.m., avv.",missing,0,0
+444,euro,s.m.inv.,taught,4,116
+445,uccidere,v.tr.,missing,0,0
+446,rosso,"agg., s.m.",taught,10,114
+447,raccontare,v.tr. e intr.,missing,0,0
+448,giornata,s.f.,taught,1,37
+449,controllo,s.m.,missing,0,0
+450,fondo,"agg., s.m., avv., loc.",seen,0,18
+451,internazionale,"agg., s.m. e f.",missing,0,0
+452,chiaro,"agg., s.m., avv.",taught,5,73
+453,favore,s.m.,taught,9,106
+454,evento,s.m.,missing,0,0
+455,ormai,avv.,missing,0,0
+456,nemmeno,avv.,missing,0,0
+457,partito,s.m.,seen,0,11
+458,passato,"p.pass., agg., s.m.",seen,0,5
+459,aprile,s.m.,missing,0,0
+460,mercato,s.m.,taught,2,52
+461,sicurezza,s.f.,missing,0,0
+462,medico,s.m.,missing,0,0
+463,avanti,"avv., agg.inv., loc.",taught,1,8
+464,tuttavia,"cong., avv.",missing,0,0
+465,vecchio,"agg., s.m.",taught,2,22
+466,prezzo,s.m.,missing,0,0
+467,ottobre,s.m.,missing,0,0
+468,sera,s.f.,taught,2,35
+469,cura,s.f.,missing,0,0
+470,scusare,v.tr. e intr.,taught,10,165
+471,area,s.f.,missing,0,0
+472,paura,s.f.,missing,0,0
+473,resto,s.m.,taught,1,26
+474,cultura,s.f.,missing,0,0
+475,precedente,"p.pres., agg., s.m.",missing,0,0
+476,giugno,s.m.,missing,0,0
+477,aiuto,"s.m., inter.",seen,0,9
+478,luce,s.f.,taught,1,27
+479,processo,s.m.,missing,0,0
+480,pronto,agg.,seen,0,13
+481,fratello,s.m.,missing,0,0
+482,musica,s.f.,taught,2,29
+483,nota,s.f.,seen,0,4
+484,autore,s.m.,missing,0,0
+485,cioè,cong.,seen,0,3
+486,lì,avv.,taught,2,34
+487,sud,"s.m.inv., agg.inv.",missing,0,0
+488,civile,"agg., s.m.",missing,0,0
+489,squadra,s.f.,missing,0,0
+490,speciale,"agg., s.m., s.f.",missing,0,0
+491,chiudere,v.tr. e intr.,seen,0,11
+492,re,s.m.inv.,missing,0,0
+493,atto,s.m.,missing,0,0
+494,sopra,"prep., avv., agg.inv., s.m.inv.",taught,2,18
+495,realizzare,v.tr.,missing,0,0
+496,offrire,v.tr.,taught,2,18
+497,relazione,s.f.,missing,0,0
+498,cinque,"agg.num.card.inv., s.m.inv., s.f.pl.",taught,1,21
+499,luglio,s.m.,missing,0,0
+500,americano,"agg., s.m.",missing,0,1
+501,classe,s.f.,missing,0,0
+502,cittadino,"agg., s.m.",missing,0,0
+503,sviluppo,s.m.,missing,0,0
+504,unito,"p.pass., agg., s.m.",missing,0,0
+505,viaggio,s.m.,taught,2,36
+506,dietro,"prep., avv., agg.inv., s.m.",taught,1,21
+507,nord,"s.m.inv., agg.inv.",missing,0,0
+508,significare,v.tr.,missing,0,0
+509,piede,s.m.,seen,0,7
+510,ruolo,s.m.,missing,0,0
+511,aprire,v.tr. e intr.,seen,0,6
+512,dimostrare,"v.tr., v.intr.",missing,0,0
+513,intero,"agg., s.m.",seen,0,2
+514,spazio,s.m.,missing,0,0
+515,attenzione,s.f.,seen,0,3
+516,abbastanza,avv.,missing,0,0
+517,data,s.f.,missing,0,0
+518,possibilità,s.f.inv.,missing,0,0
+519,intendere,"v.tr., v.intr.",missing,0,0
+520,contenere,v.tr.,missing,0,0
+521,entrambi,"pron.num.pl., agg.num.pl.",missing,0,0
+522,rete,s.f.,missing,0,0
+523,ufficio,s.m.,missing,0,0
+524,testo,s.m.,missing,0,0
+525,comprare,v.tr.,taught,1,25
+526,bianco,"agg., s.m.",taught,7,55
+527,macchina,s.f.,missing,0,0
+528,francese,"agg., s.m. e f.",missing,0,0
+529,ritornare,v.intr. e tr.,taught,1,15
+530,succedere,v.intr.,missing,0,0
+531,cadere,"v.in- tr., s.m.",missing,0,0
+532,incontro,s.m.,seen,0,4
+533,popolo,s.m.,missing,0,0
+534,polizia,s.f.,missing,0,0
+535,febbraio,s.m.,missing,0,0
+536,ieri,"avv., s.m.inv.",taught,2,23
+537,neanche,avv.,missing,0,0
+538,veramente,avv.,missing,0,0
+539,carta,s.f.,missing,0,0
+540,movimento,s.m.,missing,0,1
+541,agosto,s.m.,missing,0,0
+542,militare,"agg., s.m.",missing,0,0
+543,mente,s.f.,missing,0,0
+544,felice,agg.,taught,1,14
+545,vivo,"agg., s.m.",missing,0,0
+546,bisognare,v.intr.,missing,0,0
+547,fronte,"s.f., s.m.",missing,0,0
+548,territorio,s.m.,missing,0,0
+549,messaggio,s.m.,taught,3,10
+550,secolo,s.m.,missing,0,0
+551,davanti,"avv., agg.inv., s.m.inv.",taught,2,40
+552,dicembre,s.m.,missing,0,0
+553,magari,"inter., cong., avv.",missing,0,0
+554,nonostante,"prep., cong.",missing,0,0
+555,novembre,s.m.,missing,0,0
+556,piuttosto,avv.,missing,0,0
+557,scelta,s.f.,missing,0,1
+558,ascoltare,v.tr.,seen,0,4
+559,ministro,s.m.,missing,0,0
+560,colore,s.m.,taught,3,19
+561,reale,"agg., s.m.",missing,0,0
+562,occasione,s.f.,missing,0,0
+563,dentro,"avv., prep., s.m.",seen,0,5
+564,probabilmente,avv.,missing,0,0
+565,commento,s.m.,missing,0,0
+566,tema,s.m.,missing,0,0
+567,facile,"agg., avv.",missing,0,0
+568,provincia,s.f.,missing,0,0
+569,auto,s.f.inv.,missing,0,0
+570,mondiale,"agg., s.m.",missing,0,0
+571,dedicare,v.tr.,missing,0,0
+572,piazza,s.f.,taught,1,98
+573,crescere,v.intr. e tr.,missing,0,0
+574,breve,"agg., avv., s.f.",missing,0,0
+575,indicare,v.tr.,missing,0,0
+576,riconoscere,v.tr.,missing,0,0
+577,caro,"agg., avv., s.m.",seen,0,2
+578,genitore,s.m.,missing,0,0
+579,gennaio,s.m.,missing,0,0
+580,né,cong.,missing,0,0
+581,ottimo,"agg., s.m.",missing,0,1
+582,valere,v.intr. e tr.,missing,0,0
+583,produzione,s.f.,missing,0,0
+584,utente,s.m. e f.,missing,0,0
+585,sede,s.f.,missing,0,0
+586,avvenire,"agg.inv., s.m.inv.",missing,0,0
+587,età,s.f.inv.,missing,0,0
+588,aggiungere,"v.tr., v.intr.",missing,0,0
+589,professore,s.m.,missing,0,1
+590,superiore,"agg., s.m.",missing,0,0
+591,relativo,agg.,missing,0,0
+592,membro,s.m.,missing,0,0
+593,ok,"avv., s.m.inv., agg.inv.",seen,0,2
+594,antico,"agg., s.m.",taught,2,15
+595,incontrare,"v.tr., v.intr.",missing,0,0
+596,centrale,"agg., s.m. e f.",seen,0,42
+597,sostenere,v.tr.,missing,0,0
+598,presto,"avv., inter., agg.",taught,1,6
+599,partecipare,v.intr. e tr.,missing,0,0
+600,colpa,s.f.,missing,0,0
+601,fonte,"s.f., s.m.",missing,0,0
+602,occupare,v.tr.,seen,0,6
+603,merda,s.f.,missing,0,0
+604,confronto,s.m.,missing,0,0
+605,voglia,s.f.,missing,0,0
+606,lettera,s.f.,missing,0,0
+607,preferire,v.tr.,taught,2,52
+608,documento,s.m.,missing,0,0
+609,sbagliare,v.intr. e tr.,seen,0,11
+610,codice,s.m.,missing,0,0
+611,mamma,s.f.,taught,3,50
+612,immaginare,"v.tr., s.m.",missing,0,0
+613,moglie,s.f.,missing,0,0
+614,soluzione,s.f.,missing,0,0
+615,repubblica,s.f.,missing,0,0
+616,sala,s.f.,taught,1,4
+617,costruire,v.tr.,missing,0,0
+618,pensiero,s.m.,missing,0,0
+619,scorso,"p.pass., agg., s.m.",missing,0,0
+620,rischio,s.m.,missing,0,0
+621,canzone,s.f.,seen,0,2
+622,oppure,cong.,missing,0,0
+623,qualità,s.f.inv.,missing,0,0
+624,specie,"s.f., avv.",missing,0,0
+625,scoprire,v.tr.,missing,0,0
+626,presenza,s.f.,missing,0,0
+627,arma,s.f.,missing,0,0
+628,sinistra,s.f.,taught,3,55
+629,papa,s.m.,missing,0,0
+630,popolazione,s.f.,missing,0,0
+631,pezzo,s.m.,missing,0,0
+632,festa,s.f.,missing,0,0
+633,imparare,v.tr.,taught,1,15
+634,isola,s.f.,missing,0,0
+635,stagione,s.f.,missing,0,0
+636,domani,"avv., s.m.inv.",taught,3,23
+637,riportare,v.tr.,missing,0,0
+638,oro,s.m.,missing,0,0
+639,differenza,s.f.,missing,0,0
+640,singolo,"agg., s.m.",missing,0,0
+641,camera,s.f.,taught,1,25
+642,fisico,"agg., s.m.",missing,0,0
+643,dubbio,s.m.,missing,0,0
+644,modello,s.m.,missing,0,0
+645,struttura,s.f.,missing,0,0
+646,versione,s.f.,missing,0,0
+647,animale,s.m.,seen,0,3
+648,pena,s.f.,missing,0,0
+649,libertà,s.f.inv.,missing,0,0
+650,metà,s.f.inv.,missing,0,0
+651,ricordo,s.m.,seen,0,12
+652,verità,s.f.inv.,missing,0,0
+653,assumere,v.tr.,missing,0,0
+654,comprendere,v.tr.,missing,0,0
+655,solito,"agg., s.m.",missing,0,0
+656,evitare,v.tr.,missing,0,0
+657,strumento,s.m.,missing,0,0
+658,aumentare,v.tr. e intr.,missing,0,0
+659,funzionare,v.intr.,missing,0,0
+660,misura,s.f.,seen,0,2
+661,costo,s.m.,missing,0,0
+662,mantenere,v.tr.,missing,0,0
+663,corte,s.f.,missing,0,0
+664,seguente,"p.pres., agg., s.m. e f.",missing,0,0
+665,pace,s.f.,seen,0,2
+666,formazione,s.f.,missing,0,0
+667,pratica,s.f.,missing,0,0
+668,oggetto,s.m.,missing,0,0
+669,ritenere,v.tr.,missing,0,0
+670,fermare,"v.tr., v.intr.",taught,1,15
+671,lato,s.m.,missing,0,0
+672,stile,s.m.,missing,0,0
+673,attuale,agg.,missing,0,0
+674,aria,s.f.,seen,0,6
+675,povero,agg.,missing,0,1
+676,definire,v.tr.,missing,0,0
+677,funzione,s.f.,missing,0,0
+678,riguardo,s.m.,missing,0,0
+679,associazione,s.f.,missing,0,0
+680,discorso,s.m.,missing,0,0
+681,tramite,"s.m., prep.",missing,0,0
+682,errore,s.m.,missing,0,0
+683,numeroso,agg.,missing,0,0
+684,scena,s.f.,seen,0,3
+685,naturale,"agg., s.m.",taught,1,3
+686,regola,s.f.,seen,0,3
+687,scopo,s.m.,missing,0,0
+688,interessare,v.tr. e intr.,missing,0,0
+689,figlia,s.f.,missing,0,0
+690,materiale,"agg., s.m.",missing,0,0
+691,tirare,v.tr. e intr.,missing,0,0
+692,romano,"agg., s.m.",seen,0,10
+693,settore,s.m.,missing,0,0
+694,internet,s.m. e f.inv.,missing,0,0
+695,calcio,s.m.,missing,0,0
+696,web,s.m.inv.,missing,0,0
+697,lontano,"agg., avv., s.m.",taught,3,27
+698,togliere,v.tr.,missing,0,0
+699,totale,"agg., s.m.",seen,0,2
+700,fuoco,"s.m., loc.",missing,0,0
+701,ridere,"v.intr. e tr., s.m.",missing,0,0
+702,sesso,s.m.,missing,0,0
+703,fornire,v.tr.,missing,0,0
+704,estero,"agg., s.m.",missing,0,0
+705,operazione,s.f.,missing,0,0
+706,campagna,s.f.,missing,0,0
+707,obiettivo,"agg., s.m.",missing,0,0
+708,smettere,v.tr. e intr.,missing,0,0
+709,formare,v.tr.,missing,0,0
+710,personaggio,s.m.,missing,0,0
+711,argomento,s.m.,missing,0,0
+712,spesa,s.f.,missing,0,0
+713,studiare,v.tr.,seen,0,2
+714,opinione,s.f.,missing,0,0
+715,origine,s.f.,missing,0,0
+716,conseguenza,s.f.,missing,0,0
+717,unire,v.tr.,missing,0,0
+718,capitare,"v.intr., v.tr.",missing,0,0
+719,vendere,v.tr.,missing,0,0
+720,finale,"agg., s.m., s.f.",missing,0,0
+721,cane,s.m.,taught,12,151
+722,lista,s.f.,seen,0,2
+723,maniera,s.f.,missing,0,0
+724,costa,s.f.,taught,2,41
+725,qua,avv.,seen,0,5
+726,scusa,s.f.,seen,0,37
+727,culturale,agg.,missing,0,0
+728,famoso,agg.,missing,0,0
+729,studente,s.m.,seen,0,5
+730,natura,s.f.,missing,0,0
+731,stampa,s.f.,missing,0,0
+732,ambiente,"s.m., agg.",missing,0,0
+733,dieci,"agg.num.card.inv., s.m.inv., s.m.pl., s.f.pl.",taught,1,21
+734,destra,s.f.,taught,3,53
+735,successivo,agg.,missing,0,0
+736,colpire,v.tr.,missing,0,0
+737,mostra,s.f.,seen,0,2
+738,ricco,agg.,missing,0,0
+739,guida,s.f.,seen,0,5
+740,interessante,"p.pres., agg.",missing,0,0
+741,cibo,s.m.,missing,0,0
+742,condividere,v.tr.,missing,0,0
+743,salvare,v.tr.,missing,0,0
+744,mostrare,"v.tr., v.intr.",missing,0,0
+745,soltanto,"avv., cong.",missing,0,0
+746,accettare,v.tr.,missing,0,0
+747,duro,"agg., s.m., avv.",taught,1,9
+748,vittima,s.f.,missing,0,0
+749,dichiarare,v.tr.,missing,0,0
+750,contare,v.tr. e intr.,missing,0,0
+751,direttore,"s.m., agg.",missing,0,0
+752,edizione,s.f.,missing,0,0
+753,normale,"agg., s.m., s.f.",missing,0,0
+754,grave,"agg., s.m., avv.",missing,0,1
+755,attacco,s.m.,missing,0,0
+756,dimenticare,v.tr.,missing,0,0
+757,premio,"s.m., agg.inv.",missing,0,0
+758,commissione,s.f.,missing,0,0
+759,telefono,s.m.,taught,1,18
+760,finalmente,avv.,seen,0,4
+761,ovviamente,avv.,missing,0,0
+762,segno,s.m.,missing,0,0
+763,semplicemente,avv.,missing,0,0
+764,economia,s.f.,missing,0,0
+765,elemento,s.m.,missing,0,0
+766,controllare,v.tr.,missing,0,0
+767,compagnia,s.f.,missing,0,0
+768,produrre,v.tr.,missing,0,0
+769,matrimonio,s.m.,seen,0,2
+770,artista,s.m. e f.,missing,0,0
+771,bravo,"agg., s.m., inter.",seen,0,14
+772,preparare,v.tr.,missing,0,0
+773,intervento,s.m.,missing,0,0
+774,guidare,v.tr.,seen,0,5
+775,comunicazione,s.f.,missing,0,0
+776,riferimento,s.m.,missing,0,0
+777,utile,"agg., s.m.",missing,0,0
+778,accadere,v.intr.,missing,0,0
+779,costituire,v.tr.,missing,0,0
+780,aspetto,s.m.,seen,0,17
+781,completamente,avv.,missing,0,0
+782,comunità,s.f.inv.,missing,0,0
+783,danno,s.m.,missing,0,0
+784,impresa,s.f.,missing,0,0
+785,pregare,v.tr.,taught,2,125
+786,salute,"s.f., inter.",taught,1,14
+787,organizzare,v.tr.,missing,0,0
+788,merito,s.m.,missing,0,0
+789,conoscenza,s.f.,missing,0,0
+790,anima,s.f.,missing,0,0
+791,capitale,"agg., s.m., s.f.",missing,0,0
+792,attivo,"agg., s.m.",missing,0,0
+793,contrario,"agg., s.m.",missing,0,0
+794,figura,s.f.,missing,0,0
+795,organizzazione,s.f.,missing,0,0
+796,risultare,v.intr. e tr.,missing,0,0
+797,abbandonare,v.tr.,missing,0,0
+798,giornale,"s.m., agg.",missing,0,0
+799,banca,s.f.,taught,2,42
+800,difesa,s.f.,missing,0,0
+801,brutto,"agg., s.m., avv.",missing,0,0
+802,dormire,"v.intr., v.tr.",seen,0,14
+803,esercito,s.m.,missing,0,0
+804,apparire,v.intr.,missing,0,0
+805,superare,v.tr.,missing,0,0
+806,canale,s.m.,taught,1,5
+807,grosso,"agg., s.m.",missing,0,0
+808,strano,agg.,taught,4,9
+809,fortuna,s.f.,seen,0,5
+810,sangue,"s.m., agg.inv.",missing,0,0
+811,offerta,s.f.,missing,0,1
+812,tecnica,s.f.,missing,0,0
+813,beh,inter.,missing,0,0
+814,direttamente,avv.,missing,0,0
+815,voto,s.m.,missing,0,0
+816,esterno,"agg., s.m.",missing,0,0
+817,tedesco,"agg., s.m.",missing,0,0
+818,fase,s.f.,missing,0,0
+819,contatto,s.m.,missing,0,0
+820,gestire,v.tr.,missing,0,0
+821,inviare,v.tr.,missing,0,0
+822,positivo,"agg., s.m., avv.",missing,0,0
+823,metro,s.m.,seen,0,2
+824,popolare,"agg., s.m.",missing,0,0
+825,moderno,"agg., s.m.",taught,4,12
+826,intorno,"avv., prep., agg.inv., s.m.",missing,0,0
+827,costringere,v.tr.,missing,0,0
+828,raccogliere,v.tr.,missing,0,0
+829,originale,"agg., s.m. e f.",missing,0,0
+830,decisione,s.f.,missing,0,0
+831,sposare,v.tr. e intr.,missing,0,0
+832,pari,"agg.inv., avv., s.m. e f.inv.",missing,0,0
+833,fermo,agg.,missing,0,0
+834,segreto,"s.m.; agg., s.m., avv.",seen,0,2
+835,affrontare,v.tr.,missing,0,0
+836,riferire,v.tr. e intr.,missing,0,0
+837,vittoria,s.f.,missing,0,0
+838,anzi,"avv., prep.",missing,0,1
+839,contratto,s.m.,missing,0,0
+840,crisi,s.f.inv.,missing,0,0
+841,visita,s.f.,seen,0,5
+842,stella,s.f.,missing,0,0
+843,episodio,s.m.,missing,0,0
+844,legare,v.tr. e intr.,missing,0,0
+845,limite,"s.m., agg.inv.",missing,0,0
+846,cielo,s.m.,missing,0,1
+847,russo,"agg., s.m.",missing,0,0
+848,minimo,"agg., s.m.",missing,0,0
+849,girare,v.tr. e intr.,seen,0,22
+850,critica,s.f.,missing,0,0
+851,culo,s.m.,missing,0,0
+852,entro,"prep., avv.",missing,0,0
+853,morto,"p.pass., agg., s.m.",missing,0,0
+854,proprietà,s.f.inv.,missing,0,0
+855,sicuramente,avv.,missing,0,0
+856,colpo,s.m.,missing,0,0
+857,sezione,s.f.,missing,0,0
+858,materia,s.f.,missing,0,0
+859,ammettere,v.tr.,missing,0,0
+860,toccare,v.tr. e intr.,taught,1,10
+861,malattia,s.f.,missing,0,0
+862,coppia,s.f.,taught,1,7
+863,basare,v.tr.,missing,0,0
+864,complesso,agg.,missing,0,0
+865,registrare,v.tr.,missing,0,0
+866,religioso,"agg., s.m.",missing,0,0
+867,mattina,s.f.,taught,2,13
+868,nazione,s.f.,missing,0,0
+869,soggetto,s.m.,missing,0,0
+870,sognare,v.tr. e intr.,missing,0,0
+871,infine,avv.,missing,0,0
+872,là,avv.,seen,0,4
+873,qualunque,"agg.indef., agg.rel., pron.rel.indef.",missing,0,0
+874,costruzione,s.f.,missing,0,0
+875,risolvere,"v.tr., v.intr.",missing,0,0
+876,amministrazione,s.f.,missing,0,0
+877,cliente,s.m. e f.,seen,0,6
+878,doppio,"agg., s.m., avv.",missing,0,0
+879,energia,s.f.,missing,0,1
+880,disponibile,"agg., s.m.",missing,0,0
+881,metodo,s.m.,missing,0,0
+882,scendere,v.intr. e tr.,taught,1,5
+883,lavoratore,"agg., s.m.",missing,0,0
+884,istituto,s.m.,missing,0,0
+885,ospedale,s.m.,seen,0,6
+886,esame,s.m.,missing,0,0
+887,invitare,v.tr.,missing,0,0
+888,assolutamente,avv.,missing,0,0
+889,speranza,s.f.,missing,0,0
+890,tradizione,s.f.,missing,0,0
+891,descrivere,v.tr.,seen,0,3
+892,affermare,v.tr.,missing,0,0
+893,memoria,s.f.,missing,0,0
+894,recente,agg.,missing,0,0
+895,direzione,s.f.,missing,0,0
+896,principe,"s.m., agg.",missing,0,0
+897,minore,"agg., s.m. e f.",missing,0,0
+898,palazzo,s.m.,seen,0,2
+899,cambio,s.m.,missing,0,0
+900,perfetto,"p.pass., agg., s.m.",seen,0,10
+901,difficoltà,s.f.inv.,missing,0,0
+902,partita,s.f.,missing,0,1
+903,categoria,s.f.,missing,0,0
+904,completo,"agg., s.m.",missing,0,1
+905,distanza,s.f.,missing,0,0
+906,responsabile,"agg., s.m. e f.",missing,0,0
+907,ministero,s.m.,missing,0,0
+908,scientifico,"agg., s.m.",missing,0,0
+909,epoca,s.f.,missing,0,0
+910,caldo,"agg., s.m., avv.",taught,1,22
+911,cristiano,"agg., s.m.",missing,0,0
+912,vento,s.m.,taught,2,33
+913,aereo,"agg., s.m.",missing,0,0
+914,sacco,s.m.,missing,0,0
+915,stabilire,v.tr.,missing,0,0
+916,fondamentale,"agg., s.f., s.m.",missing,0,0
+917,monte,s.m.,missing,0,0
+918,scienza,s.f.,missing,0,0
+919,verde,"agg., s.m., s.f.",taught,3,30
+920,norma,s.f.,missing,0,0
+921,dunque,"cong., s.m.inv.",missing,0,0
+922,esattamente,avv.,missing,0,0
+923,gara,s.f.,missing,0,0
+924,ritorno,s.m.,seen,0,15
+925,giornalista,s.m. e f.,missing,0,0
+926,discussione,s.f.,missing,0,0
+927,disposizione,s.f.,missing,0,0
+928,commerciale,"agg., s.m.",missing,0,0
+929,radio,"s.f.inv., agg.inv.",missing,0,0
+930,battaglia,s.f.,seen,0,4
+931,tecnologia,s.f.,missing,0,0
+932,egli,pron.pers.,missing,0,0
+933,combattere,v.intr. e tr.,missing,0,0
+934,regno,s.m.,missing,0,0
+935,chiunque,"pron.indef., pron.rel.indef.",missing,0,0
+936,giustizia,s.f.,missing,0,0
+937,mille,"agg.num.card.inv., s.m.inv.",taught,5,77
+938,noto,"agg., s.m.",missing,0,0
+939,ovvero,cong.,missing,0,0
+940,peso,s.m.,missing,0,1
+941,accesso,s.m.,missing,0,0
+942,cinese,"agg., s.m. e f.",missing,0,0
+943,analisi,s.f.inv.,missing,0,0
+944,prevedere,v.tr.,missing,0,0
+945,straniero,"agg., s.m.",missing,0,0
+946,lezione,s.f.,seen,0,73
+947,teatro,s.m.,missing,0,0
+948,ambito,s.m.,missing,0,0
+949,citare,v.tr.,missing,0,0
+950,muro,s.m.,missing,0,1
+951,affare,s.m.,missing,0,0
+952,aumento,s.m.,missing,0,0
+953,rompere,v.tr. e intr.,missing,0,0
+954,appunto,avv.,missing,0,0
+955,sedere,v.intr. e tr.,seen,0,5
+956,autorità,s.f.inv.,missing,0,0
+957,muovere,v.tr. e intr.,missing,0,0
+958,caratteristica,s.f.,missing,0,0
+959,dolce,"agg., s.m., avv.",taught,1,18
+960,fila,s.f.,missing,0,0
+961,consentire,v.tr. e intr.,missing,0,0
+962,capacità,s.f.inv.,missing,0,0
+963,richiesta,s.f.,missing,0,0
+964,sé,pron.pers.,missing,0,0
+965,profilo,s.m.,missing,0,0
+966,porre,v.tr. e intr.,missing,0,0
+967,privato,"agg., s.m.",missing,0,0
+968,tentare,v.tr.,missing,0,0
+969,unità,s.f.inv.,missing,0,0
+970,bere,"v.tr., s.m.",taught,4,50
+971,durare,"v.intr., v.tr.",missing,0,0
+972,bocca,s.f.,seen,0,3
+973,concetto,"p.pass., agg., s.m.",missing,0,0
+974,legale,"agg., s.m.",missing,0,0
+975,sorella,s.f.,missing,0,0
+976,sette,"agg.num.card.inv., s.m.inv., s.f.pl.",taught,1,24
+977,riprendere,v.tr. e intr.,missing,0,0
+978,massa,"s.f., avv.",missing,0,0
+979,difendere,v.tr.,missing,0,0
+980,falso,"agg., avv., s.m.",missing,0,1
+981,tardi,avv.,seen,0,5
+982,marito,s.m.,missing,0,1
+983,bloccare,v.tr.,missing,0,0
+984,migliorare,v.tr. e intr.,missing,0,0
+985,dolore,s.m.,missing,0,0
+986,stazione,s.f.,taught,2,54
+987,domenica,s.f.,missing,0,0
+988,carattere,s.m.,missing,0,0
+989,previsto,"p.pass., agg., s.m.",missing,0,0
+990,tecnico,"agg., s.m.",missing,0,0
+991,iniziativa,s.f.,missing,0,0
+992,passaggio,s.m.,missing,0,0
+993,dollaro,s.m.,missing,0,0
+994,estate,s.f.,missing,0,0
+995,nascondere,v.tr.,missing,0,0
+996,diretto,"p.pass., agg., s.m.",missing,0,0
+997,paio,s.m.,missing,0,0
+998,peggio,"avv., agg.inv., s.m.inv.",missing,0,0
+999,presa,s.f.,missing,0,0
+1000,purtroppo,avv.,missing,0,0

@@ -1,0 +1,15 @@
+{
+  "name": "piazza-italian",
+  "version": "0.6.0",
+  "private": true,
+  "description": "An RPG-style game that takes you from zero to travel-ready Italian (A2).",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "watch": "node scripts/build.js --watch",
+    "test": "node tests/run.js",
+    "setup": "npm install && npx playwright install chromium"
+  },
+  "devDependencies": {
+    "playwright": "^1.48.0"
+  }
+}
