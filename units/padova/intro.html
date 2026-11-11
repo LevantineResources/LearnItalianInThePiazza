@@ -1,0 +1,26 @@
+<!-- Padova's intro poster (put in engine/index.html by the build): the title, the name card, the skip links to Lessons 2–6 (early/intro.js wires
+     them; Lessons 7+ add theirs), the controls. -->
+<p class="eyebrow">Learn Italian · Lezione 1</p>
+<h1>Piazza</h1>
+<p class="tagline">You've just arrived in a small Italian town. Nobody here speaks English.</p>
+<form id="nameForm" class="name-card">
+  <label for="nameInput">What's your name?</label>
+  <div class="row">
+    <input id="nameInput" maxlength="14" autocomplete="off" placeholder="Alex" spellcheck="false">
+    <button class="btn primary" type="submit">Inizia</button>
+  </div>
+  <p class="small">Your name becomes a word tile, so you can say “Mi chiamo …”</p>
+  <p class="small" id="jumpRow">Skip ahead to <button type="button" id="btnJump2" class="linkbtn">Lezione 2</button>, <button type="button" id="btnJump3" class="linkbtn">Lezione 3</button>, <button type="button" id="btnJump4" class="linkbtn">Lezione 4</button>, <button type="button" id="btnJump5" class="linkbtn">Lezione 5</button>, <button type="button" id="btnJump6" class="linkbtn">Lezione 6</button></p>
+  <div id="continueRow" class="row" hidden>
+    <button id="btnContinue" class="btn" type="button">Continue</button>
+  </div>
+</form>
+<ul class="controls">
+  <li><kbd>←</kbd><kbd>↑</kbd><kbd>↓</kbd><kbd>→</kbd> or <kbd>WASD</kbd> walk, or tap the ground</li>
+  <li><kbd>E</kbd> talk</li>
+  <li><kbd>H</kbd> handbook</li>
+  <li><kbd>V</kbd> dictionary</li>
+  <li><kbd>M</kbd> map · <kbd>P</kbd> phone (from Lezione 3)</li>
+  <li><kbd>N</kbd> numbers drill (from Lezione 7)</li>
+  <li><kbd>T</kbd> Studio: study a finished lesson's words</li>
+</ul>
