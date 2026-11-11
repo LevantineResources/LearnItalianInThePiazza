@@ -1,0 +1,63 @@
+{
+  "id": "padova",
+  "title": "Piazza Italian Tutorial",
+  "logo": "Piazza",
+  "world": "The piazza",
+  "intro": "intro.html",
+  "art": "assets/padova/art",
+  "phases": {
+    "content": [
+      "unit.js",
+      "@shared/cast.js",
+      "content/shared.js",
+      "content/places.js",
+      "content/verbs.js",
+      "@art",
+      "@lessons-content",
+      "content/npcs.js"
+    ],
+    "engine": [
+      "ui/ispy.js",
+      "ui/museum-ispy.js",
+      "world/map.js"
+    ],
+    "logic": [
+      "early/state.js",
+      "early/hud.js",
+      "early/conversation.js",
+      "early/handbook.js",
+      "early/phone.js",
+      "early/intro.js",
+      "world/doors.js",
+      "debug.js",
+      "@lessons-logic",
+      "@quests"
+    ],
+    "world": [
+      "world/scenes.js",
+      "world/statue.js",
+      "world/museo.js",
+      "world/galleria.js",
+      "world/stazione.js",
+      "world/shops.js",
+      "world/ponte.js",
+      "world/parco.js",
+      "world/salone.js",
+      "world/basilica.js",
+      "world/treno.js",
+      "world/venezia.js"
+    ],
+    "render": [
+      "render/scenes.js",
+      "render/backgrounds.js",
+      "render/galleria.js",
+      "render/stazione.js",
+      "render/ponte.js",
+      "render/parco.js",
+      "render/salone.js",
+      "render/basilica.js",
+      "render/treno.js",
+      "render/venezia.js"
+    ]
+  }
+}
