@@ -1,0 +1,1329 @@
+{
+ "rooms": {
+  "1": "Sala 1 · Gotico e primo Rinascimento",
+  "2": "Sala 2 · Il Rinascimento",
+  "3": "Sala 3 · Il Barocco",
+  "4": "Sala 4 · Dopo il 1900",
+  "5": "Sala 5 · Raffaello",
+  "0": "Atrio · Le sculture"
+ },
+ "note": "Dates and sizes are approximate; size in cm, height × width; statues: height.",
+ "works": [
+  {
+   "id": "martini-annunciazione",
+   "file": "martini-annunciazione.jpg",
+   "thumb": "martini-annunciazione.thumb.jpg",
+   "room": 1,
+   "kind": "painting",
+   "title_it": "L'Annunciazione",
+   "title_en": "The Annunciation",
+   "artist": "Simone Martini",
+   "date": "1333",
+   "size_cm": "184 × 210",
+   "material": "tempera e oro su tavola",
+   "w": 1280,
+   "h": 1111,
+   "tags": {
+    "by": "Simone Martini",
+    "people": [
+     3,
+     4
+    ],
+    "who": [
+     "uomo",
+     "donna"
+    ],
+    "angel": true,
+    "tone": "chiaro",
+    "colors": [
+     "giallo",
+     "blu",
+     "rosso"
+    ],
+    "feel": [
+     {
+      "who": "donna",
+      "maybe": [
+       "spaventato",
+       "sorpreso",
+       "triste",
+       "calmo"
+      ]
+     }
+    ],
+    "things": [
+     "an angel (Gabriel)",
+     "little angels round God at the top",
+     "a vase of lilies",
+     "gold"
+    ]
+   }
+  },
+  {
+   "id": "masaccio-tributo",
+   "file": "masaccio-tributo.jpg",
+   "thumb": "masaccio-tributo.thumb.jpg",
+   "room": 1,
+   "kind": "painting",
+   "title_it": "Il pagamento del tributo",
+   "title_en": "The Tribute Money",
+   "artist": "Masaccio",
+   "date": "c. 1425",
+   "size_cm": "247 × 597",
+   "material": "affresco",
+   "w": 1600,
+   "h": 738,
+   "tags": {
+    "by": "Masaccio",
+    "people": [
+     12,
+     14
+    ],
+    "who": [
+     "uomo"
+    ],
+    "colors": [
+     "rosso",
+     "blu",
+     "verde",
+     "rosa"
+    ],
+    "feel": [
+     {
+      "who": "uomo",
+      "maybe": [
+       "arrabbiato",
+       "calmo",
+       "sorpreso"
+      ]
+     }
+    ],
+    "things": [
+     "mountains",
+     "a house with an arch",
+     "a lake"
+    ]
+   }
+  },
+  {
+   "id": "mantegna-orazione",
+   "file": "mantegna-orazione.jpg",
+   "thumb": "mantegna-orazione.thumb.jpg",
+   "room": 1,
+   "kind": "painting",
+   "title_it": "Orazione nell'orto",
+   "title_en": "Agony in the Garden",
+   "artist": "Andrea Mantegna",
+   "date": "c. 1458",
+   "size_cm": "63 × 80",
+   "material": "tempera su tavola",
+   "w": 1600,
+   "h": 1239,
+   "tags": {
+    "by": "Mantegna",
+    "people": [
+     10,
+     20
+    ],
+    "who": [
+     "uomo"
+    ],
+    "angel": true,
+    "colors": [
+     "verde",
+     "rosa",
+     "blu"
+    ],
+    "feel": [
+     {
+      "who": "uomo",
+      "maybe": [
+       "triste",
+       "spaventato",
+       "calmo"
+      ]
+     }
+    ],
+    "things": [
+     "five little angels in the sky",
+     "rocks",
+     "a city",
+     "soldiers",
+     "rabbits",
+     "a bird on a tree"
+    ]
+   }
+  },
+  {
+   "id": "uccello-san-romano",
+   "file": "uccello-san-romano.jpg",
+   "thumb": "uccello-san-romano.thumb.jpg",
+   "room": 1,
+   "kind": "painting",
+   "title_it": "La battaglia di San Romano",
+   "title_en": "The Battle of San Romano",
+   "artist": "Paolo Uccello",
+   "date": "c. 1438",
+   "size_cm": "182 × 320",
+   "material": "tempera su tavola",
+   "w": 1600,
+   "h": 905,
+   "tags": {
+    "by": "Paolo Uccello",
+    "people": [
+     12,
+     40
+    ],
+    "who": [
+     "uomo"
+    ],
+    "animals": {
+     "cavallo": [
+      "bianco",
+      "nero"
+     ]
+    },
+    "animalsMaybe": [
+     "cane"
+    ],
+    "colors": [
+     "nero",
+     "bianco",
+     "rosso"
+    ],
+    "feel": [
+     {
+      "who": "uomo",
+      "maybe": [
+       "arrabbiato",
+       "spaventato"
+      ]
+     }
+    ],
+    "things": [
+     "horses",
+     "lances",
+     "armour",
+     "a flag",
+     "tiny dogs and hares far away"
+    ]
+   }
+  },
+  {
+   "id": "botticelli-primavera",
+   "file": "botticelli-primavera.jpg",
+   "thumb": "botticelli-primavera.thumb.jpg",
+   "room": 2,
+   "kind": "painting",
+   "title_it": "La Primavera",
+   "title_en": "Primavera",
+   "artist": "Sandro Botticelli",
+   "date": "c. 1480",
+   "size_cm": "207 × 319",
+   "material": "tempera su tavola",
+   "w": 1600,
+   "h": 1051,
+   "tags": {
+    "by": "Botticelli",
+    "people": [
+     8,
+     9
+    ],
+    "who": [
+     "donna",
+     "uomo"
+    ],
+    "whoMaybe": [
+     "bambino"
+    ],
+    "angelMaybe": true,
+    "colors": [
+     "verde",
+     "nero",
+     "bianco",
+     "rosso"
+    ],
+    "feel": [
+     {
+      "who": "donna",
+      "maybe": [
+       "felice",
+       "calmo",
+       "triste",
+       "spaventato"
+      ]
+     },
+     {
+      "who": "uomo",
+      "maybe": [
+       "calmo"
+      ]
+     }
+    ],
+    "things": [
+     "orange trees",
+     "flowers",
+     "Cupid flying"
+    ]
+   }
+  },
+  {
+   "id": "leonardo-dama",
+   "file": "leonardo-dama.jpg",
+   "thumb": "leonardo-dama.thumb.jpg",
+   "room": 2,
+   "kind": "painting",
+   "title_it": "La dama con l'ermellino",
+   "title_en": "Lady with an Ermine",
+   "artist": "Leonardo da Vinci",
+   "date": "c. 1490",
+   "size_cm": "54 × 39",
+   "material": "olio su tavola",
+   "w": 960,
+   "h": 1291,
+   "tags": {
+    "by": "Leonardo",
+    "people": [
+     1,
+     1
+    ],
+    "who": [
+     "donna"
+    ],
+    "animalsMaybe": [
+     "gatto",
+     "cane"
+    ],
+    "tone": "scuro",
+    "faces": true,
+    "colors": [
+     "nero",
+     "rosso",
+     "blu"
+    ],
+    "feel": [
+     {
+      "who": "donna",
+      "is": [
+       "calmo"
+      ],
+      "maybe": [
+       "triste"
+      ]
+     }
+    ],
+    "things": [
+     "an ermine (white)",
+     "a necklace"
+    ]
+   }
+  },
+  {
+   "id": "giorgione-tempesta",
+   "file": "giorgione-tempesta.jpg",
+   "thumb": "giorgione-tempesta.thumb.jpg",
+   "room": 2,
+   "kind": "painting",
+   "title_it": "La tempesta",
+   "title_en": "The Tempest",
+   "artist": "Giorgione",
+   "date": "c. 1508",
+   "size_cm": "82 × 73",
+   "material": "olio su tela",
+   "w": 1280,
+   "h": 1421,
+   "tags": {
+    "by": "Giorgione",
+    "people": [
+     3,
+     3
+    ],
+    "who": [
+     "uomo",
+     "donna",
+     "bambino"
+    ],
+    "colors": [
+     "verde",
+     "blu",
+     "bianco"
+    ],
+    "feel": [
+     {
+      "who": "donna",
+      "maybe": [
+       "calmo",
+       "triste"
+      ]
+     },
+     {
+      "who": "uomo",
+      "maybe": [
+       "calmo"
+      ]
+     }
+    ],
+    "things": [
+     "lightning",
+     "a town",
+     "a bridge",
+     "two columns",
+     "trees"
+    ]
+   }
+  },
+  {
+   "id": "tiziano-bacco",
+   "file": "tiziano-bacco.jpg",
+   "thumb": "tiziano-bacco.thumb.jpg",
+   "room": 2,
+   "kind": "painting",
+   "title_it": "Bacco e Arianna",
+   "title_en": "Bacchus and Ariadne",
+   "artist": "Tiziano",
+   "date": "1523",
+   "size_cm": "177 × 191",
+   "material": "olio su tela",
+   "w": 1280,
+   "h": 1158,
+   "tags": {
+    "by": "Tiziano",
+    "people": [
+     8,
+     10
+    ],
+    "who": [
+     "uomo",
+     "donna",
+     "bambino"
+    ],
+    "animals": {
+     "cane": []
+    },
+    "tone": "chiaro",
+    "colors": [
+     "blu",
+     "rosa",
+     "verde"
+    ],
+    "feel": [
+     {
+      "who": "donna",
+      "maybe": [
+       "spaventato",
+       "sorpreso"
+      ]
+     },
+     {
+      "who": "uomo",
+      "maybe": [
+       "felice"
+      ]
+     }
+    ],
+    "things": [
+     "two cheetahs",
+     "a small brown dog",
+     "a chariot",
+     "stars"
+    ]
+   }
+  },
+  {
+   "id": "carracci-mangiafagioli",
+   "file": "carracci-mangiafagioli.jpg",
+   "thumb": "carracci-mangiafagioli.thumb.jpg",
+   "room": 3,
+   "kind": "painting",
+   "title_it": "Il mangiafagioli",
+   "title_en": "The Bean Eater",
+   "artist": "Annibale Carracci",
+   "date": "c. 1584",
+   "size_cm": "57 × 68",
+   "material": "olio su tela",
+   "w": 1600,
+   "h": 1335,
+   "tags": {
+    "by": "Carracci",
+    "people": [
+     1,
+     1
+    ],
+    "who": [
+     "uomo"
+    ],
+    "hat": [],
+    "table": true,
+    "faces": true,
+    "colors": [
+     "bianco",
+     "marrone"
+    ],
+    "feel": [
+     {
+      "who": "uomo",
+      "is": [
+       "sorpreso"
+      ],
+      "maybe": [
+       "felice",
+       "calmo"
+      ]
+     }
+    ],
+    "things": [
+     "beans",
+     "bread",
+     "wine",
+     "a straw hat",
+     "a window"
+    ]
+   }
+  },
+  {
+   "id": "caravaggio-giuditta",
+   "file": "caravaggio-giuditta.jpg",
+   "thumb": "caravaggio-giuditta.thumb.jpg",
+   "room": 3,
+   "kind": "painting",
+   "title_it": "Giuditta e Oloferne",
+   "title_en": "Judith Beheading Holofernes",
+   "artist": "Caravaggio",
+   "date": "c. 1599",
+   "size_cm": "145 × 195",
+   "material": "olio su tela",
+   "w": 1600,
+   "h": 1193,
+   "tags": {
+    "by": "Caravaggio",
+    "people": [
+     3,
+     3
+    ],
+    "who": [
+     "donna",
+     "uomo"
+    ],
+    "tone": "scuro",
+    "colors": [
+     "rosso",
+     "nero",
+     "bianco"
+    ],
+    "feel": [
+     {
+      "who": "donna",
+      "is": [
+       "arrabbiato"
+      ],
+      "maybe": [
+       "calmo",
+       "spaventato"
+      ]
+     },
+     {
+      "who": "uomo",
+      "is": [
+       "spaventato"
+      ],
+      "maybe": [
+       "arrabbiato",
+       "sorpreso"
+      ]
+     }
+    ],
+    "things": [
+     "a sword",
+     "a red curtain"
+    ]
+   }
+  },
+  {
+   "id": "caravaggio-matteo",
+   "file": "caravaggio-matteo.jpg",
+   "thumb": "caravaggio-matteo.thumb.jpg",
+   "room": 3,
+   "kind": "painting",
+   "title_it": "La vocazione di San Matteo",
+   "title_en": "The Calling of Saint Matthew",
+   "artist": "Caravaggio",
+   "date": "1600",
+   "size_cm": "322 × 340",
+   "material": "olio su tela",
+   "w": 960,
+   "h": 907,
+   "tags": {
+    "by": "Caravaggio",
+    "people": [
+     7,
+     7
+    ],
+    "who": [
+     "uomo"
+    ],
+    "whoMaybe": [
+     "bambino"
+    ],
+    "hat": [],
+    "hatMaybe": [
+     "nero"
+    ],
+    "table": true,
+    "tone": "scuro",
+    "colors": [
+     "nero",
+     "marrone",
+     "rosso"
+    ],
+    "feel": [
+     {
+      "who": "uomo",
+      "maybe": [
+       "sorpreso",
+       "calmo"
+      ]
+     }
+    ],
+    "things": [
+     "a window",
+     "a table",
+     "coins",
+     "hats with feathers"
+    ]
+   }
+  },
+  {
+   "id": "reni-atalanta",
+   "file": "reni-atalanta.jpg",
+   "thumb": "reni-atalanta.thumb.jpg",
+   "room": 3,
+   "kind": "painting",
+   "title_it": "Atalanta e Ippomene",
+   "title_en": "Atalanta and Hippomenes",
+   "artist": "Guido Reni",
+   "date": "c. 1619",
+   "size_cm": "206 × 297",
+   "material": "olio su tela",
+   "w": 1600,
+   "h": 1172,
+   "tags": {
+    "by": "Reni",
+    "people": [
+     2,
+     8
+    ],
+    "who": [
+     "donna",
+     "uomo"
+    ],
+    "tone": "scuro",
+    "colors": [
+     "rosa",
+     "nero",
+     "bianco"
+    ],
+    "feel": [
+     {
+      "who": "donna",
+      "maybe": [
+       "calmo"
+      ]
+     },
+     {
+      "who": "uomo",
+      "maybe": [
+       "spaventato",
+       "sorpreso",
+       "calmo"
+      ]
+     }
+    ],
+    "things": [
+     "golden apples",
+     "a crowd far away"
+    ]
+   }
+  },
+  {
+   "id": "canaletto-canal-grande",
+   "file": "canaletto-canal-grande.jpg",
+   "thumb": "canaletto-canal-grande.thumb.jpg",
+   "room": 3,
+   "kind": "painting",
+   "title_it": "L'ingresso del Canal Grande",
+   "title_en": "The Entrance to the Grand Canal, Venice",
+   "artist": "Canaletto",
+   "date": "c. 1730",
+   "size_cm": "50 × 73",
+   "material": "olio su tela",
+   "w": 1600,
+   "h": 1092,
+   "tags": {
+    "by": "Canaletto",
+    "people": [
+     10,
+     40
+    ],
+    "who": [
+     "uomo"
+    ],
+    "tone": "chiaro",
+    "colors": [
+     "blu",
+     "bianco",
+     "verde"
+    ],
+    "things": [
+     "gondolas",
+     "boats",
+     "a church with a dome",
+     "water",
+     "Venice"
+    ]
+   }
+  },
+  {
+   "id": "boccioni-citta",
+   "file": "boccioni-citta.jpg",
+   "thumb": "boccioni-citta.thumb.jpg",
+   "room": 4,
+   "kind": "painting",
+   "title_it": "La città che sale",
+   "title_en": "The City Rises",
+   "artist": "Umberto Boccioni",
+   "date": "1910",
+   "size_cm": "199 × 301",
+   "material": "olio su tela",
+   "w": 1600,
+   "h": 1063,
+   "tags": {
+    "by": "Boccioni",
+    "people": [
+     5,
+     20
+    ],
+    "who": [
+     "uomo"
+    ],
+    "animals": {
+     "cavallo": [
+      "rosso"
+     ]
+    },
+    "colors": [
+     "rosso",
+     "bianco",
+     "blu",
+     "giallo"
+    ],
+    "feel": [
+     {
+      "who": "uomo",
+      "maybe": [
+       "arrabbiato"
+      ]
+     }
+    ],
+    "things": [
+     "a huge red horse",
+     "workers",
+     "houses being built"
+    ]
+   }
+  },
+  {
+   "id": "balla-cane",
+   "file": "balla-cane.jpg",
+   "thumb": "balla-cane.thumb.jpg",
+   "room": 4,
+   "kind": "painting",
+   "title_it": "Dinamismo di un cane al guinzaglio",
+   "title_en": "Dynamism of a Dog on a Leash",
+   "artist": "Giacomo Balla",
+   "date": "1912",
+   "size_cm": "90 × 110",
+   "material": "olio su tela",
+   "w": 1600,
+   "h": 1321,
+   "tags": {
+    "by": "Balla",
+    "people": [
+     0,
+     1
+    ],
+    "whoMaybe": [
+     "donna"
+    ],
+    "animals": {
+     "cane": [
+      "nero"
+     ]
+    },
+    "tone": "chiaro",
+    "colors": [
+     "nero",
+     "bianco",
+     "grigio"
+    ],
+    "things": [
+     "a lead",
+     "a lady's feet and skirt"
+    ]
+   }
+  },
+  {
+   "id": "dechirico-canto",
+   "file": "dechirico-canto.jpg",
+   "thumb": "dechirico-canto.thumb.jpg",
+   "room": 4,
+   "kind": "painting",
+   "title_it": "Il canto d'amore",
+   "title_en": "The Song of Love",
+   "artist": "Giorgio de Chirico",
+   "date": "1914",
+   "size_cm": "73 × 59",
+   "material": "olio su tela",
+   "w": 960,
+   "h": 1180,
+   "tags": {
+    "by": "de Chirico",
+    "people": [
+     0,
+     0
+    ],
+    "face": "bianco",
+    "colors": [
+     "verde",
+     "blu",
+     "rosso"
+    ],
+    "feel": [
+     {
+      "who": "uomo",
+      "maybe": [
+       "calmo",
+       "triste"
+      ]
+     }
+    ],
+    "things": [
+     "a statue's head",
+     "a red glove",
+     "a green ball",
+     "a train"
+    ]
+   }
+  },
+  {
+   "id": "modigliani-soutine",
+   "file": "modigliani-soutine.jpg",
+   "thumb": "modigliani-soutine.thumb.jpg",
+   "room": 4,
+   "kind": "painting",
+   "title_it": "Ritratto di Chaim Soutine",
+   "title_en": "Portrait of Chaim Soutine",
+   "artist": "Amedeo Modigliani",
+   "date": "1917",
+   "size_cm": "92 × 60",
+   "material": "olio su tela",
+   "w": 960,
+   "h": 1490,
+   "tags": {
+    "by": "Modigliani",
+    "people": [
+     1,
+     1
+    ],
+    "who": [
+     "uomo"
+    ],
+    "tableMaybe": true,
+    "faces": true,
+    "colors": [
+     "blu",
+     "nero",
+     "verde",
+     "arancione"
+    ],
+    "feel": [
+     {
+      "who": "uomo",
+      "maybe": [
+       "triste",
+       "calmo"
+      ]
+     }
+    ],
+    "things": [
+     "a chair",
+     "a little table"
+    ]
+   }
+  },
+  {
+   "id": "raffaello-atene",
+   "file": "raffaello-atene.jpg",
+   "thumb": "raffaello-atene.thumb.jpg",
+   "room": 5,
+   "kind": "painting",
+   "title_it": "La scuola di Atene",
+   "title_en": "The School of Athens",
+   "artist": "Raffaello",
+   "date": "1511",
+   "size_cm": "500 × 770",
+   "material": "affresco",
+   "w": 1600,
+   "h": 1242,
+   "tags": {
+    "by": "Raffaello",
+    "people": [
+     50,
+     60
+    ],
+    "who": [
+     "uomo"
+    ],
+    "tone": "chiaro",
+    "colors": [
+     "bianco",
+     "rosso",
+     "blu"
+    ],
+    "things": [
+     "arches",
+     "statues",
+     "steps",
+     "books"
+    ]
+   }
+  },
+  {
+   "id": "raffaello-sposalizio",
+   "file": "raffaello-sposalizio.jpg",
+   "thumb": "raffaello-sposalizio.thumb.jpg",
+   "room": 5,
+   "kind": "painting",
+   "title_it": "Lo sposalizio della Vergine",
+   "title_en": "The Marriage of the Virgin",
+   "artist": "Raffaello",
+   "date": "1504",
+   "size_cm": "170 × 118",
+   "material": "olio su tavola",
+   "w": 960,
+   "h": 1377,
+   "tags": {
+    "by": "Raffaello",
+    "people": [
+     15,
+     25
+    ],
+    "who": [
+     "uomo",
+     "donna"
+    ],
+    "tone": "chiaro",
+    "colors": [
+     "rosso",
+     "blu",
+     "giallo",
+     "verde"
+    ],
+    "feel": [
+     {
+      "who": "donna",
+      "maybe": [
+       "calmo",
+       "triste"
+      ]
+     },
+     {
+      "who": "uomo",
+      "maybe": [
+       "arrabbiato",
+       "calmo"
+      ]
+     }
+    ],
+    "things": [
+     "a temple",
+     "a ring",
+     "a broken rod"
+    ]
+   }
+  },
+  {
+   "id": "raffaello-san-giorgio",
+   "file": "raffaello-san-giorgio.jpg",
+   "thumb": "raffaello-san-giorgio.thumb.jpg",
+   "room": 5,
+   "kind": "painting",
+   "title_it": "San Giorgio e il drago",
+   "title_en": "Saint George and the Dragon",
+   "artist": "Raffaello",
+   "date": "c. 1506",
+   "size_cm": "29 × 22",
+   "material": "olio su tavola",
+   "w": 960,
+   "h": 1261,
+   "tags": {
+    "by": "Raffaello",
+    "people": [
+     2,
+     2
+    ],
+    "who": [
+     "uomo",
+     "donna"
+    ],
+    "animals": {
+     "cavallo": [
+      "bianco"
+     ]
+    },
+    "colors": [
+     "bianco",
+     "verde",
+     "marrone"
+    ],
+    "feel": [
+     {
+      "who": "donna",
+      "maybe": [
+       "spaventato",
+       "triste",
+       "calmo"
+      ]
+     }
+    ],
+    "things": [
+     "a dragon",
+     "a lance",
+     "armour"
+    ]
+   }
+  },
+  {
+   "id": "raffaello-autoritratto",
+   "file": "raffaello-autoritratto.jpg",
+   "thumb": "raffaello-autoritratto.thumb.jpg",
+   "room": 5,
+   "kind": "painting",
+   "title_it": "Autoritratto",
+   "title_en": "Self-Portrait",
+   "artist": "Raffaello",
+   "date": "c. 1506",
+   "size_cm": "48 × 33",
+   "material": "tempera su tavola",
+   "w": 300,
+   "h": 400,
+   "tags": {
+    "by": "Raffaello",
+    "people": [
+     1,
+     1
+    ],
+    "who": [
+     "uomo"
+    ],
+    "hat": [
+     "nero"
+    ],
+    "tone": "scuro",
+    "faces": true,
+    "colors": [
+     "nero",
+     "marrone"
+    ],
+    "feel": [
+     {
+      "who": "uomo",
+      "is": [
+       "giovane"
+      ],
+      "maybe": [
+       "calmo",
+       "triste"
+      ]
+     }
+    ],
+    "things": [
+     "a black hat"
+    ]
+   }
+  },
+  {
+   "id": "raffaello-san-michele",
+   "file": "raffaello-san-michele.jpg",
+   "thumb": "raffaello-san-michele.thumb.jpg",
+   "room": 5,
+   "kind": "painting",
+   "title_it": "San Michele sconfigge Satana",
+   "title_en": "Saint Michael Vanquishing Satan",
+   "artist": "Raffaello",
+   "date": "1518",
+   "size_cm": "268 × 160",
+   "material": "olio su tela",
+   "w": 946,
+   "h": 1600,
+   "tags": {
+    "by": "Raffaello",
+    "people": [
+     1,
+     2
+    ],
+    "whoMaybe": [
+     "uomo"
+    ],
+    "angel": true,
+    "colors": [
+     "blu",
+     "rosso",
+     "marrone"
+    ],
+    "feel": [
+     {
+      "who": "angelo",
+      "maybe": [
+       "calmo",
+       "arrabbiato"
+      ]
+     }
+    ],
+    "things": [
+     "wings",
+     "a lance",
+     "a devil",
+     "fire"
+    ]
+   }
+  },
+  {
+   "id": "michelangelo-pieta",
+   "file": "michelangelo-pieta.png",
+   "thumb": "michelangelo-pieta.thumb.png",
+   "room": 0,
+   "kind": "statue",
+   "title_it": "La Pietà",
+   "title_en": "Pietà",
+   "artist": "Michelangelo",
+   "date": "1499",
+   "size_cm": "174 × 195",
+   "material": "marmo",
+   "w": 1104,
+   "h": 1056,
+   "tags": {
+    "by": "Michelangelo",
+    "people": [
+     2,
+     2
+    ],
+    "who": [
+     "donna",
+     "uomo"
+    ],
+    "scol": "bianco",
+    "colors": [
+     "bianco"
+    ],
+    "feel": [
+     {
+      "who": "donna",
+      "is": [
+       "triste"
+      ],
+      "maybe": [
+       "calmo"
+      ]
+     }
+    ],
+    "things": [
+     "marble"
+    ]
+   }
+  },
+  {
+   "id": "bernini-apollo",
+   "file": "bernini-apollo.png",
+   "thumb": "bernini-apollo.thumb.png",
+   "room": 0,
+   "kind": "statue",
+   "title_it": "Apollo e Dafne",
+   "title_en": "Apollo and Daphne",
+   "artist": "Gian Lorenzo Bernini",
+   "date": "1625",
+   "size_cm": "243 (alt.)",
+   "material": "marmo",
+   "w": 737,
+   "h": 1400,
+   "tags": {
+    "by": "Bernini",
+    "people": [
+     2,
+     2
+    ],
+    "who": [
+     "uomo",
+     "donna"
+    ],
+    "scol": "bianco",
+    "colors": [
+     "bianco"
+    ],
+    "feel": [
+     {
+      "who": "donna",
+      "is": [
+       "spaventato"
+      ],
+      "maybe": [
+       "sorpreso"
+      ]
+     },
+     {
+      "who": "uomo",
+      "maybe": [
+       "felice",
+       "sorpreso",
+       "calmo"
+      ]
+     }
+    ],
+    "things": [
+     "laurel leaves",
+     "marble"
+    ]
+   }
+  },
+  {
+   "id": "canova-psiche",
+   "file": "canova-psiche.png",
+   "thumb": "canova-psiche.thumb.png",
+   "room": 0,
+   "kind": "statue",
+   "title_it": "Amore e Psiche",
+   "title_en": "Psyche Revived by Cupid's Kiss",
+   "artist": "Antonio Canova",
+   "date": "1793",
+   "size_cm": "155 × 168",
+   "material": "marmo",
+   "w": 1023,
+   "h": 1087,
+   "tags": {
+    "by": "Canova",
+    "people": [
+     2,
+     2
+    ],
+    "who": [
+     "uomo",
+     "donna"
+    ],
+    "angelMaybe": true,
+    "scol": "bianco",
+    "colors": [
+     "bianco"
+    ],
+    "feel": [
+     {
+      "who": "donna",
+      "maybe": [
+       "calmo",
+       "felice"
+      ]
+     },
+     {
+      "who": "uomo",
+      "maybe": [
+       "calmo",
+       "felice"
+      ]
+     }
+    ],
+    "things": [
+     "wings",
+     "marble"
+    ]
+   }
+  },
+  {
+   "id": "cellini-perseo",
+   "file": "cellini-perseo.png",
+   "thumb": "cellini-perseo.thumb.png",
+   "room": 0,
+   "kind": "statue",
+   "title_it": "Perseo con la testa di Medusa",
+   "title_en": "Perseus with the Head of Medusa",
+   "artist": "Benvenuto Cellini",
+   "date": "1554",
+   "size_cm": "320 (alt.)",
+   "material": "bronzo",
+   "w": 638,
+   "h": 1400,
+   "tags": {
+    "by": "Cellini",
+    "people": [
+     1,
+     2
+    ],
+    "who": [
+     "uomo"
+    ],
+    "whoMaybe": [
+     "donna"
+    ],
+    "scolMaybe": "nero",
+    "colors": [
+     "nero",
+     "verde"
+    ],
+    "feel": [
+     {
+      "who": "uomo",
+      "maybe": [
+       "calmo",
+       "felice"
+      ]
+     }
+    ],
+    "things": [
+     "a sword",
+     "Medusa's head",
+     "bronze"
+    ]
+   }
+  },
+  {
+   "id": "boccioni-forme",
+   "file": "boccioni-forme.png",
+   "thumb": "boccioni-forme.thumb.png",
+   "room": 0,
+   "kind": "statue",
+   "title_it": "Forme uniche della continuità nello spazio",
+   "title_en": "Unique Forms of Continuity in Space",
+   "artist": "Umberto Boccioni",
+   "date": "1913",
+   "size_cm": "111 (alt.)",
+   "material": "bronzo",
+   "w": 878,
+   "h": 1121,
+   "tags": {
+    "by": "Boccioni",
+    "people": [
+     0,
+     1
+    ],
+    "whoMaybe": [
+     "uomo"
+    ],
+    "scolMaybe": "giallo",
+    "colors": [
+     "giallo"
+    ],
+    "things": [
+     "bronze",
+     "a striding figure"
+    ]
+   }
+  }
+ ]
+}
