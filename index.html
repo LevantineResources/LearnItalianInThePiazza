@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title><!-- @title --></title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+<!-- @styles -->
+</style>
+</head>
+<body>
+<div id="app">
+  <header id="bar">
+    <div class="brand"><span class="logo"><!-- @logo --></span><span class="lesson" id="lessonLabel"></span></div>
+    <div id="objective" class="objective"></div>
+    <div id="gameClock" class="gclock" hidden aria-live="polite"></div>
+    <nav class="tools" aria-label="Game tools">
+      <button id="btnBook" class="tool" title="Learn Italian Handbook (H)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 21V5"/><path d="M9 7h6"/></svg>
+        <span class="lbl">Handbook</span><kbd>H</kbd>
+      </button>
+      <button id="btnDict" class="tool" title="Dictionary (V for vocabolario)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 19l4-12 4 12"/><path d="M4.5 15h5"/><path d="M14 8h6l-6 9h6"/></svg>
+        <span class="lbl">Dictionary</span><b id="dictCount" class="badge">0</b><kbd>V</kbd>
+      </button>
+      <button id="btnPhone" class="tool" hidden title="Phone (P)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg>
+        <span class="lbl">Phone</span><span id="phoneDot" class="dot" hidden></span><kbd>P</kbd>
+      </button>
+      <button id="btnNum" class="tool" hidden title="Numbers drill (N for numeri)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8.5 7.5 6v12"/><path d="M12 9a3.2 3.2 0 0 1 6.4 0c0 3.2-6.4 5.6-6.4 9h6.6"/></svg>
+        <span class="lbl">Numeri</span><kbd>N</kbd>
+      </button>
+      <button id="btnStudy" class="tool" hidden title="Studio: study the words and verbs of finished lessons (T)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="13" height="13" rx="2"/><path d="M8 8V5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-3"/></svg>
+        <span class="lbl">Studio</span><kbd>T</kbd>
+      </button>
+      <button id="btnBag" class="tool" hidden title="Your bag (the phone's Borsa tab)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1 12H6z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+        <span class="lbl">Borsa</span><b id="bagCount" class="badge">0</b>
+      </button>
+      <button id="btnMap" class="tool" hidden title="Map (M)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/></svg>
+        <span class="lbl">Map</span><kbd>M</kbd>
+      </button>
+      <button id="btnSound" class="tool" aria-pressed="true" title="Italian voice on/off"></button>
+      <button id="btnReset" class="tool" title="Start over">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>
+      </button>
+    </nav>
+  </header>
+  <main id="stage">
+    <canvas id="cv" aria-label="<!-- @world -->. Walk with arrow keys or tap; press E to talk."></canvas>
+    <div id="guide" class="guide" role="status"><span class="tag">Guida</span><p id="guideText"></p></div>
+    <div id="toasts" aria-live="polite"></div>
+    <div id="fade" aria-live="polite"><p id="fadeTitle"></p><small id="fadeSub"></small></div>
+
+    <section id="dialog" hidden aria-label="Conversation">
+      <div class="dlg-head"><span id="dlgWho"></span><button class="x" id="dlgClose" aria-label="Leave conversation" title="Leave (Esc)">×</button></div>
+      <div id="transcript" class="transcript"></div>
+      <!-- everything the player uses (hint, tiles, typer, notepad, choices): pinned under the transcript, which shrinks
+           first; on a short window this part scrolls itself (styles.css, #dialog) -->
+      <div id="dlgFoot" class="dlg-foot">
+      <div id="hint" class="hint" hidden></div>
+      <div id="builder" class="builder" hidden>
+        <div id="sentence" class="sentence" data-empty="Tap words from your dictionary to build a sentence"></div>
+        <div id="bank" class="bank"></div>
+        <div class="actions">
+          <button id="btnClear" class="btn">Clear</button>
+          <button id="btnSay" class="btn primary">Dillo! <small>Say it · Enter</small></button>
+        </div>
+      </div>
+      <div id="typer" class="typer" hidden>
+        <div class="typer-target"><span class="lbl">Say it in Italian</span><span id="typerEn"></span></div>
+        <div class="typer-row"><input id="typerInput" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Type in Italian… no accents needed" aria-label="Your sentence in Italian"><button id="btnType" class="btn primary">Dillo!</button></div>
+        <div class="typer-tools"><button id="btnTypeDict" class="linkbtn" type="button">Look something up in the dictionary</button><span>Accents and small typos are fixed for you.</span></div>
+      </div>
+      <div id="choices" class="choices" hidden></div>
+      </div>
+    </section>
+
+    <div id="modal" class="modal" hidden><div id="sheet" class="sheet" role="dialog" aria-modal="true"></div></div>
+
+    <div id="intro" class="intro" hidden>
+      <div class="poster">
+<!-- @intro -->
+      </div>
+    </div>
+  </main>
+</div>
+
+<script>
+<!-- @script -->
+</script>
+</body>
+</html>
